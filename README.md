@@ -17,5 +17,5 @@ markdown format:
 Conference or Journal Year. [[PDF](link)] [[Project](link)] [[Github](link)] [[Video](link)] [[Data](link)]
 ```
 
-🙏utilized [weihaox](https://github.com/weihaox)' work
+🙏utilize [weihaox](https://github.com/weihaox)' work
 
