@@ -16,8 +16,6 @@ If you think I have missed out on something (or) have any suggestions (papers, i
 
 markdown format:
 
-(from the latest to the old)
-
 ``` markdown
 [Paper Name](pdf link)
 **[`Conference/Journal Year`]**	 **(`Institution`)**	[[Github](link)]	[[Project](link)]
@@ -27,6 +25,8 @@ markdown format:
 🙏utilize [weihaox](https://github.com/weihaox)' work
 
 
+
+(The order is from the latest to the old)
 
 ## edit face (facial features)
 
