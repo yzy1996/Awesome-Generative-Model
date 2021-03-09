@@ -30,10 +30,8 @@ markdown format:
 
 ## edit face (facial features)
 
-[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)
-
-**`[CVPR 2020]`**	**(`CUHK`)**	[Github](https://github.com/genforce/interfacegan)
-
+[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)<br>
+**`[CVPR 2020]`**	**(`CUHK`)**	[Github](https://github.com/genforce/interfacegan)<br>
 *Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
 
 [Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/abs/2102.01187)
