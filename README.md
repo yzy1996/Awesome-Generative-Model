@@ -41,7 +41,7 @@ markdown format:
 
 
 
-[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/pdf/2007.10379.pdf)
+[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/pdf/2007.10379.pdf)  
 **`[CVPR 2021]`**	**(`CUHK`)**
 
 Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou
