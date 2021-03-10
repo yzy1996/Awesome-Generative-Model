@@ -37,14 +37,14 @@ markdown format:
 
 
 [Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/abs/2102.01187)<br>
-
 **`[ICLR 2021]`**
 
 
 
-Generative Hierarchical Features from Synthesizing Images
+[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/pdf/2007.10379.pdf)
+**`[CVPR 2021]`**	**(`CUHK`)**
 
-
+Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou
 
 
 
