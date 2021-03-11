@@ -17,9 +17,9 @@ If you think I have missed out on something (or) have any suggestions (papers, i
 markdown format:
 
 ``` markdown
-[Paper Name](pdf link)
-**[`Conference/Journal Year`]**	 **(`Institution`)**	[[Github](link)]	[[Project](link)]
-*[Author 1](homepage), Author 2, and Author 3.*
+[Paper Name](pdf link)  
+**[`Conference/Journal Year`]**	 **(`Institution`)**	[[Github](link)]	[[Project](link)]  
+*[Author 1](homepage), Author 2, and Author 3.*  
 ```
 
 🙏utilize [weihaox](https://github.com/weihaox)' work
@@ -30,34 +30,52 @@ markdown format:
 
 ## edit face (facial features)
 
-[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)<br>
-**`[CVPR 2020]`**	**(`CUHK`)**	[[Github](https://github.com/genforce/interfacegan)]<br>
-*Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
+[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)  
+**[`CVPR 2020`]**	**(`CUHK`)**	[[Github](https://github.com/genforce/interfacegan)]  
+Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
 
 
 
-[Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/abs/2102.01187)<br>
-**`[ICLR 2021]`**
+[Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/abs/2102.01187)  
+**[`ICLR 2021`]**  
+*Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing*
 
 
 
-[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/pdf/2007.10379.pdf)  
-**`[CVPR 2021]`**	**(`CUHK`)**
-
-Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou
-
+[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)  
+**[`CVPR 2021`]**	**(`CUHK`)**  
+*Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou*
 
 
 
-[GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546)
-**`[NeurIPS 2020]`**
+[GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546)  
+**[`NeurIPS 2020`]**
+
+
+
+Generative Hierarchical Features from Synthesizing Images
+
+
+
+Closed-Form Factorization of Latent Semantics in GANs
 
 ## generative 3D from 2D 
 
-Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs
+[Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/abs/2011.00844)  
+**[`ICLR 2021`]**  
+*Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*
 
 
 
-[Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/pdf/1911.11130.pdf)
+[Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/abs/1911.11130)  
+**[`CVPR 2020 (Best paper)`]**  
+*Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi*
 
-**[`CVPR 2020 (Best paper)`]**
+
+
+[Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/abs/2011.13126)  
+Yichun Shi, Divyansh Aggarwal, Anil K. Jain
+
+
+
+Deep 3D Portrait from a Single Image
