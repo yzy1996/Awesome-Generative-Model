@@ -1,4 +1,4 @@
-# <p align=center>`awesome Generative Model for Face papers`</p>
+# <p align=center>`awesome Generative Model for Face`</p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -59,7 +59,7 @@ Generative Hierarchical Features from Synthesizing Images
 
 Closed-Form Factorization of Latent Semantics in GANs
 
-## generative 3D from 2D 
+## generate 3D from 2D 
 
 [Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/abs/2011.00844)  
 **[`ICLR 2021`]**  
