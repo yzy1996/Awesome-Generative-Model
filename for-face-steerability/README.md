@@ -6,7 +6,7 @@
 
 A collection of resources on Application of Generative Model in Face Steerability.
 
-
+edit face (facial features)
 
 ## Contributing
 
@@ -29,7 +29,7 @@ A summary here
 
 
 
-## edit face (facial features)
+## Literature
 
 [Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)  
 **[`CVPR 2020`]**	**(`CUHK`)**	[[Github](https://github.com/genforce/interfacegan)]  
@@ -60,23 +60,5 @@ Generative Hierarchical Features from Synthesizing Images
 
 Closed-Form Factorization of Latent Semantics in GANs
 
-## generate 3D from 2D 
-
-[Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/abs/2011.00844)  
-**[`ICLR 2021`]**  
-*Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*
 
 
-
-[Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/abs/1911.11130)  
-**[`CVPR 2020 (Best paper)`]**  
-*Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi*
-
-
-
-[Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/abs/2011.13126)  
-Yichun Shi, Divyansh Aggarwal, Anil K. Jain
-
-
-
-Deep 3D Portrait from a Single Image
