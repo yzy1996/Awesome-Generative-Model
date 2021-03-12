@@ -6,7 +6,7 @@
 
 A collection of resources on Image Style Transfer (photorealistic image stylization).
 
-
+Or named Image-to-image (i2i) translation
 
 ## Contributing
 
@@ -31,9 +31,23 @@ Photorealistic image stylization aims at changing style of a photo to that of a 
 
 Related Apps: Prisma
 
+<image>
+
+ learn translations between domains, applying to the context of source images a target appearance learned from a dataset.
+
 ## Literature
 
-(The order is from the latest to the old)
+> The order is from the latest to the old
+
+
+
+[CoMoGAN: continuous model-guided image-to-image translation](https://arxiv.org/abs/2103.06879)  
+**[`CVPR 2021 (oral)`]**	**(`Inria`)**	[[Github](https://github.com/cv-rits/CoMoGAN)]  
+*Fabio Pizzati, Pietro Cerri, Raoul de Charette*
+
+<details><summary>Click to expand</summary><p>
+A summary here
+</p></details>
 
 [A Closed-form Solution to Photorealistic Image Stylization](https://arxiv.org/abs/1802.06474)  
 **[`ECCV 2018`]**	**(`UC, NVIDIA`)**	[[Github](https://github.com/NVIDIA/FastPhotoStyle)]  
@@ -42,8 +56,6 @@ Related Apps: Prisma
 <details><summary>Click to expand</summary><p>
 A summary here
 </p></details>
-
-
 [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html)  
 **[`CVPR 2016`]**	**(`Tubingen`)**  
 *Leon A. Gatys, Alexander S. Ecker, Matthias Bethge*
