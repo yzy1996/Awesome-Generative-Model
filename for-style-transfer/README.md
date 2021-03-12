@@ -56,6 +56,7 @@ A summary here
 <details><summary>Click to expand</summary><p>
 A summary here
 </p></details>
+
 [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html)  
 **[`CVPR 2016`]**	**(`Tubingen`)**  
 *Leon A. Gatys, Alexander S. Ecker, Matthias Bethge*
