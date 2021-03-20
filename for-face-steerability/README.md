@@ -10,7 +10,7 @@ edit face (facial features)
 
 ## Contributing
 
-Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I have also released the [latex-pdf version](). 
+Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I have also released the [latex-citation version](). 
 
 markdown format:
 
@@ -27,9 +27,51 @@ A summary here
 
 ## Introduction
 
+**Definition:** Control a single attribute of interest, e.g. pose in our goal, without affecting other ones.
 
+These change are most semantic
+
+main lines:
+
+- control the latent space of GAN
+
+
+
+**Strength:** help to understand the generation process of GAN
+
+latent disentangle
+
+traverse in the latent space
+
+latent space
+
+manifold
+
+
+
+Disentanglement can be defined as the ability to control a single factor, or feature, without affecting other ones [Locatello et al. 2018] A properly disentangled representation can benefit semantic data mixing [Johnson et al. 2016; Xiao et al. 2019], transfer learning for downstream tasks [Bengio et al. 2013; Tschannen et al. 2018], or even interpretability [Mathieu et al. 2018].
+
+**challenge: reducing supervision**
+
+supervised solutions are most effective [Aberman et al. 2019]
+
+but often impose infeasible data collection requirement
+
+
+
+Sematic work is InfoGAN
+
+
+
+GAN Inversion: Interpreting the Latent Space of Pretrained Models
 
 ## Literature
+
+GAN Inversion: A Survey
+
+Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations
+
+
 
 [Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)  
 **[`CVPR 2020`]**	**(`CUHK`)**	[[Github](https://github.com/genforce/interfacegan)]  
@@ -61,4 +103,8 @@ Generative Hierarchical Features from Synthesizing Images
 Closed-Form Factorization of Latent Semantics in GANs
 
 
+
+[Face Identity Disentanglement via Latent Space Mapping](https://arxiv.org/abs/2005.07728)  
+**[`TOG 2020`]**	**(`Tel-Aviv University, Alibaba`)**	[[Github](https://github.com/YotamNitzan/ID-disentanglement)]  
+*Yotam Nitzan, Amit Bermano, Yangyan Li, Daniel Cohen-Or*
 
