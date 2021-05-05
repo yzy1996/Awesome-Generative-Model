@@ -85,11 +85,17 @@ Two Summaries:
 **[`CVPR 2020`] (`SenseTime, CUHK`)**  
 *Cheng-Han Lee, Ziwei Liu, Lingyun Wu, Ping Luo*
 
+[Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning](https://arxiv.org/pdf/2004.11660.pdf)  
+**[`CVPR 2020`] (`Tsinghua`)**  
+*Yu Deng, Jiaolong Yang, Dong Chen, Fang Wen, Xin Tong*
+
 [Face Identity Disentanglement via Latent Space Mapping](https://arxiv.org/pdf/2005.07728.pdf)  
 **[`TOG 2020`] (`Tel-Aviv University, Alibaba`)** [[:octocat:](https://github.com/YotamNitzan/ID-disentanglement)]  
 *Yotam Nitzan, Amit Bermano, Yangyan Li, Daniel Cohen-Or*
 
-
+[Optimizing the Latent Space of Generative Networks](https://arxiv.org/pdf/1707.05776.pdf)  
+**[`ICML 2018`] (`Facebook`)**  
+*Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam*
 
 ## Main Research Group
 
