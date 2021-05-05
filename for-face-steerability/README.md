@@ -70,7 +70,7 @@ Two Summaries:
 *Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou*
 
 [Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/pdf/2102.01187.pdf)  
-**[`ICLR 2021`] (UIUC)**  
+**[`ICLR 2021`] (`UIUC`)**  
 *Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing*
 
 [GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/pdf/2004.02546.pdf)  
