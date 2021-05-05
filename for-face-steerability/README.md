@@ -16,14 +16,14 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
-**[`Conference/Journal Year`]**	 **(`Institution`)**	[[Github](link)]	[[Project](link)]  
-*[Author 1](homepage), Author 2, and Author 3.*  
+**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]  
+*[Author 1](homepage), Author 2, and Author 3*  
 <details><summary>Click to expand</summary><p>
 A summary here
 </p></details>
 ```
 
-
+[Zhou Bolei-Papers on generative modeling](https://github.com/zhoubolei/awesome-generative-modeling)
 
 ## Introduction
 
@@ -31,80 +31,67 @@ A summary here
 
 These change are most semantic
 
-main lines:
+**main lines:**
 
 - control the latent space of GAN
 
-
-
 **Strength:** help to understand the generation process of GAN
 
-latent disentangle
+**challenge:** reducing supervision. Supervised solutions are most effective [Aberman et al. 2019], but often impose infeasible data collection requirement
 
-traverse in the latent space
-
-latent space
-
-manifold
+**Key words:** latent disentangle, traverse in the latent space, manifold
 
 
 
-Disentanglement can be defined as the ability to control a single factor, or feature, without affecting other ones [Locatello et al. 2018] A properly disentangled representation can benefit semantic data mixing [Johnson et al. 2016; Xiao et al. 2019], transfer learning for downstream tasks [Bengio et al. 2013; Tschannen et al. 2018], or even interpretability [Mathieu et al. 2018].
+> **Disentanglement** can be defined as the ability to control a single factor, or feature, without affecting other ones. A properly disentangled representation can benefit semantic data mixing, transfer learning for downstream tasks, or even interpretability.  --《Face Identity Disentanglement via Latent Space Mapping》
 
-**challenge: reducing supervision**
-
-supervised solutions are most effective [Aberman et al. 2019]
-
-but often impose infeasible data collection requirement
+> **GAN Inversion**: Interpreting the Latent Space of Pretrained Models
 
 
-
-Sematic work is InfoGAN
-
-
-
-GAN Inversion: Interpreting the Latent Space of Pretrained Models
 
 ## Literature
 
-GAN Inversion: A Survey
+Two Summaries:
 
-Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations
+- [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf)  
+*Weihao Xia, Yulun Zhang, Yujiu Yang, Jing-Hao Xue, Bolei Zhou, Ming-Hsuan Yang*
 
+- [Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations](https://arxiv.org/pdf/1811.12359.pdf)
+*Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem*
 
+---
 
-[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/abs/1907.10786)  
-**[`CVPR 2020`]**	**(`CUHK`)**	[[Github](https://github.com/genforce/interfacegan)]  
-*Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
+[Closed-Form Factorization of Latent Semantics in GANs](https://arxiv.org/pdf/2007.06600.pdf)  
+**[`CVPR 2021`] (`CUHK`)**  
+*Yujun Shen, Bolei Zhou*
 
+[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/pdf/2007.10379.pdf)  
+**[`CVPR 2021`] (`CUHK`)**  
+*Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou*
 
-
-[Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/abs/2102.01187)  
+[Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation](https://arxiv.org/pdf/2102.01187.pdf)  
 **[`ICLR 2021`]**  
 *Peiye Zhuang, Oluwasanmi Koyejo, Alexander G. Schwing*
 
+[GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/pdf/2004.02546.pdf)  
+**[`NeurIPS 2020`] (`Aalto, Adobe, NVIDIA`)**  
+*Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris*
 
+[Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/pdf/1907.10786.pdf)  
+**[`CVPR 2020`] (`CUHK`)** [[Github](https://github.com/genforce/interfacegan)]  
+*Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
 
-[Generative Hierarchical Features from Synthesizing Images](https://arxiv.org/abs/2007.10379)  
-**[`CVPR 2021`]**	**(`CUHK`)**  
-*Yinghao Xu, Yujun Shen, Jiapeng Zhu, Ceyuan Yang, Bolei Zhou*
+[MaskGAN: Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/pdf/1907.11922.pdf)  
+**[`CVPR 2020`] (`SenseTime, CUHK`)**  
+*Cheng-Han Lee, Ziwei Liu, Lingyun Wu, Ping Luo*
 
-
-
-[GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/abs/2004.02546)  
-**[`NeurIPS 2020`]**
-
-
-
-Generative Hierarchical Features from Synthesizing Images
-
-
-
-Closed-Form Factorization of Latent Semantics in GANs
-
-
-
-[Face Identity Disentanglement via Latent Space Mapping](https://arxiv.org/abs/2005.07728)  
-**[`TOG 2020`]**	**(`Tel-Aviv University, Alibaba`)**	[[Github](https://github.com/YotamNitzan/ID-disentanglement)]  
+[Face Identity Disentanglement via Latent Space Mapping](https://arxiv.org/pdf/2005.07728.pdf)  
+**[`TOG 2020`] (`Tel-Aviv University, Alibaba`)** [[Github](https://github.com/YotamNitzan/ID-disentanglement)]  
 *Yotam Nitzan, Amit Bermano, Yangyan Li, Daniel Cohen-Or*
+
+
+
+## Main Research Group
+
+- CUHK Zhou bolei
 
