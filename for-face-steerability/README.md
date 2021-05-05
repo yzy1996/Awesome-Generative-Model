@@ -86,7 +86,7 @@ Two Summaries:
 *Cheng-Han Lee, Ziwei Liu, Lingyun Wu, Ping Luo*
 
 [Face Identity Disentanglement via Latent Space Mapping](https://arxiv.org/pdf/2005.07728.pdf)  
-**[`TOG 2020`] (`Tel-Aviv University, Alibaba`)** [[Github](https://github.com/YotamNitzan/ID-disentanglement)]  
+**[`TOG 2020`] (`Tel-Aviv University, Alibaba`)** [[:octocat:](https://github.com/YotamNitzan/ID-disentanglement)]  
 *Yotam Nitzan, Amit Bermano, Yangyan Li, Daniel Cohen-Or*
 
 
