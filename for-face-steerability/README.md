@@ -16,7 +16,7 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
-**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]  
+**[`Conference/Journal Year`] (`Institution`)** [[:octocat:(Github)](link)] [[Project](link)]  
 *[Author 1](homepage), Author 2, and Author 3*  
 <details><summary>Click to expand</summary><p>
 A summary here
@@ -78,7 +78,7 @@ Two Summaries:
 *Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris*
 
 [Interpreting the Latent Space of GANs for Semantic Face Editing](https://arxiv.org/pdf/1907.10786.pdf)  
-**[`CVPR 2020`] (`CUHK`)** [[Github](https://github.com/genforce/interfacegan)]  
+**[`CVPR 2020`] (`CUHK`)** [[:octocat:](https://github.com/genforce/interfacegan)]  
 *Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*
 
 [MaskGAN: Towards Diverse and Interactive Facial Image Manipulation](https://arxiv.org/pdf/1907.11922.pdf)  
