@@ -23,8 +23,6 @@ A summary here
 </p></details>
 ```
 
-[Zhou Bolei-Papers on generative modeling](https://github.com/zhoubolei/awesome-generative-modeling)
-
 ## Introduction
 
 **Definition:** Control a single attribute of interest, e.g. pose in our goal, without affecting other ones.
@@ -50,6 +48,8 @@ These change are most semantic
 
 
 ## Literature
+
+> You can also ref the repo of [Papers on generative modeling](https://github.com/zhoubolei/awesome-generative-modeling).
 
 Two Summaries:
 
