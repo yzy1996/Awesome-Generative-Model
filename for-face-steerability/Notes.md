@@ -1,4 +1,8 @@
-# <p align=center>`awesome Generative Model for Face Steerability` </p>
+# <p align=center>`Notes - Generative Model for Face Steerability` </p>
+
+Due to the lack of Github support for LaTeX math formulas, it is recommended that you can download it and view it locally with your own Markdown editor.
+
+---
 
 [Closed-Form Factorization of Latent Semantics in GANs](https://arxiv.org/pdf/2007.06600.pdf)  
 **[`CVPR 2021`] (`CUHK`)**  
