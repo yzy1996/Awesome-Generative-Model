@@ -16,8 +16,8 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
-**[`Conference/Journal Year`] (`Institution`)** [[:octocat:(Github)](link)] [[Project](link)]  
-*[Author 1](homepage), Author 2, and Author 3*  
+**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
+*[Author 1](homepage), Author 2, and Author 3.*  
 <details><summary>Click to expand</summary><p>
 A summary here
 </p></details>
@@ -101,3 +101,16 @@ Two Summaries:
 
 - CUHK Zhou bolei
 
+
+
+
+
+
+
+unsort
+
+
+
+[Deforming autoencoders: Unsupervised disentangling of shape and appearance](https://arxiv.org/pdf/1806.06503.pdf)  
+**[ECCV 2018] (Stony Brook University)**   
+*Zhixin Shu, Mihir Sahasrabudhe, Alp Guler, Dimitris Samaras, Nikos Paragios, Iasonas Kokkinos*
