@@ -78,6 +78,8 @@ a (<u>pretrained</u>) fixed GAN model consisting of a generator **G** and a disc
 
 latent vector $\boldsymbol{z} \in \mathbb{R}^m$ from a known distribution $P(\boldsymbol{z})$, and sample $N$ random vectors $\mathbb{Z} = \{\boldsymbol{z}^{(1)}, \dots, \boldsymbol{z}^{(N)}\}$
 
+We want to discover K non-linear interpretable paths on the latent space 
+
 
 
 

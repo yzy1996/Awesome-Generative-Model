@@ -327,7 +327,11 @@ Lead to steeper, more disentangled and interpretable changes.
 
 trained in an unsupervised manner and provide more complex generative factors.
 
-> 
+> **:pushpin:Details**
+
+They have K warping functions, the gradients of which define the directions of the paths at each latent code. This gradients is non-linear.
+
+
 
 
 
