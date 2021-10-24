@@ -49,3 +49,37 @@ ss
 **[`ICLR 2021`] (`NVIDIA, Toronto`)**  
 *Yuxuan Zhang, Wenzheng Chen, Huan Ling, Jun Gao, Yinan Zhang, Antonio Torralba, Sanja Fidler*
 
+
+
+
+
+
+
+### BlockGAN
+
+[BlockGAN: Learning 3D Object-aware Scene Representations from Unlabelled Images](https://arxiv.org/abs/2002.08988)
+
+**`[NeurIPS 2020]`**	**`(Adobe)`**	**`[Thu Nguyen-Phuoc, Christian Richardt]`**	**[[Paper](https://github.com/thunguyenphuoc/BlockGAN)]**
+
+<details><summary>Click to expand</summary>
+
+<div align=center><img width="600" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201214151442.png"/></div>
+
+> **Summary**
+
+learns 3D object-oriented scene representations directly from unlabeled 2D images
+
+> **Method**
+
+divide an 3D feature into background and foreground
+
+a noise vector $\mathbb{z}_i$ and the object's 3D pose $\theta_i = (s_i, \mathbf{R}_i, \mathbf{t}_i)$
+
+3D feature $O_i = g_i(\mathbb{z}_i, \theta_i)$
+$$
+\mathbf{x}=p\left(f(\underbrace{O_{0},}_{\text {background }} \underbrace{O_{1}, \ldots, O_{K}}_{\text {foreground }})\right)
+$$
+
+</details>
+
+---
