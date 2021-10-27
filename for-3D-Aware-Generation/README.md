@@ -73,3 +73,11 @@ Yichun Shi, Divyansh Aggarwal, Anil K. Jain
 
 Deep 3D Portrait from a Single Image
 
+
+
+#### +NeRF
+
+[CIPS-3D A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/pdf/2110.09788.pdf)  
+*Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
+**[`Arxiv 2021`] [`SJTU`]**
+
