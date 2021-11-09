@@ -58,7 +58,7 @@ learn model for **single** or **multiple** objects.
 
 - [Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering](https://arxiv.org/pdf/2010.09125.pdf)  
   *Yuxuan Zhang, Wenzheng Chen, Huan Ling, Jun Gao, Yinan Zhang, Antonio Torralba, Sanja Fidler*  
-  **[`ICLR 2021`] (`NVIDIA, Toronto`)**  
+  **[`ICLR 2021`] (`NVIDIA, U Toronto`)**  
 
 [Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/abs/1911.11130)  
 **[`CVPR 2020 (Best paper)`]**  
