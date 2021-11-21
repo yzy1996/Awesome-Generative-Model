@@ -15,14 +15,14 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
+*[Author 1](homepage), Author 2, and Author 3.*
 **[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
-*[Author 1](homepage), Author 2, and Author 3.*  
 <details><summary>Click to expand</summary><p>
 A summary here
 </p></details>
 ```
 
-🙏utilize [weihaox](https://github.com/weihaox)' work
+🙏Thanks [weihaox](https://github.com/weihaox)' work
 
 
 
