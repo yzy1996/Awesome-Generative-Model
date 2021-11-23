@@ -1,4 +1,32 @@
+# Latent Space Image Manipulation
 
+
+
+## Introduction
+
+To tackle the instability of the training procedure...
+
+
+
+These methods can be divided into two categories:
+
+- ...
+
+
+
+## Literature
+
+unsorted
+
+[Challenging common assumptions in the unsupervised learning of disentangled representations](https://arxiv.org/abs/1811.12359)
+
+
+
+ 
+
+
+
+[GLO](#GLO)
 
 [SeFa](#SeFa)
 
@@ -16,13 +44,36 @@
 
 [GAN_Steerability](#GAN_Steerability)
 
+
+
+
+
+
+
 ---
 
-GAN “STEERABILITY” WITHOUT OPTIMIZATION
+<span id="GLO"></span>
+[Optimizing the Latent Space of Generative Networks](https://arxiv.org/pdf/1707.05776.pdf)  
+**[`ICML 2018`] (`Facebook`)**  
+*Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam*
+
+<details><summary>Click to expand</summary>
+
+> **Summary**
+
+> **Details**
+
+compare the $\ell_2$ loss and the Laplacian pyramid Lap_1 loss, finally use a weighted combination of them.
+$$
+\operatorname{Lap}_{1}\left(x, x^{\prime}\right)=\sum_{j} 2^{2 j}\left|L^{j}(x)-L^{j}\left(x^{\prime}\right)\right|_{1}
+$$
+where $L^j(x)$ is the $j$-th level of the Laplacian pyramid representation of $x$. -[ref](Diffusion distance for histogram comparison)
 
 
 
+</details>
 
+---
 
 ### SeFa
 
@@ -41,6 +92,7 @@ GAN “STEERABILITY” WITHOUT OPTIMIZATION
 **[`ICLR 2021`]**
 
 <details><summary>Click to expand</summary><p>
+
 
 
 <div align=center><img width="800" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201122155212.png"/></div>
@@ -86,6 +138,7 @@ where $\mathcal{L}_{\mathrm{reg}}$ assesses transformations performance, $\mathc
 
 <details><summary>Click to expand</summary><p>
 
+
 <div align=center><img width="700" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201121154059.png" /></div>
 
 > **Keywords**
@@ -120,6 +173,7 @@ $$
 **[`ICML 2020`] (`Russia`)**  [[Code](https://github.com/anvoynov/GANLatentDiscovery)]
 
 <details><summary>Click to expand</summary><p>
+
 
 
 ![A9Rlu0i5j_139dt6w_ea4](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201101155344.png)
@@ -158,6 +212,7 @@ Self-supervised learning
 **`[CVPR 2020]`**	**`(CUHK)`**	**`[Yujun Shen, Bolei Zhou]`**	**([:memo:]())**	**[[:octocat:](https://github.com/genforce/interfacegan)]**
 
 <details><summary>Click to expand</summary><p>
+
 
 
 <div align=center><img width="300" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201119220419.png"/></div>
@@ -201,6 +256,7 @@ finally find n and edit the latent code z with $z_{edit} = z + \alpha n$
 <details><summary>Click to expand</summary><p>
 
 
+
 <div align=center><img width="1000" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201119164859.png"/></div>
 
 > **Formulation**
@@ -234,6 +290,7 @@ learn to increase (or decrease) the memorability with a certain amount $\alpha$
 **`[ICLR 2020]`**	**`(France)`**	**`[Antoine Plumerault, Hervé Le Borgne]`**	**([:memo:]())**	**[[:octocat:](https://github.com/AntoinePlumerault/Controlling-generative-models-with-continuous-factors-of-variations)]**
 
 <details><summary>Click to expand</summary><p>
+
 
 
 >**Framework**
@@ -283,6 +340,7 @@ then estimate the direction encoding the factor of variation described by $\math
 <details><summary>Click to expand</summary><p>
 
 
+
 <div align=center><img width="800" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201121120437.png"/></div>
 
 > **Formulation**
@@ -313,6 +371,7 @@ GAN model: BigGAN and StyleGAN
 
 <details><summary>Click to expand</summary><p>
 
+
 <div align=center><img width="800" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20211014111653.png"/></div>
 
 > :dart:**Summary**
@@ -333,6 +392,51 @@ They have K warping functions, the gradients of which define the directions of t
 
 
 
+---
+
+<span id="LowRankGAN"></span>
+[Low-Rank Subspaces in GANs](https://arxiv.org/pdf/2106.04488.pdf)  
+**[`NeurIPS 2021`] (`HKUST, Alibaba, USTC`)**  
+*Jiapeng Zhu, Ruili Feng, Yujun Shen, Deli Zhao, Zhengjun Zha, Jingren Zhou, Qifeng Chen*
 
 
-> 
+<div align=center><img width="700" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20210911170730.png"/></div>
+
+|      Name       |                 Symbol                  |
+| :-------------: | :-------------------------------------: |
+| the real image  | $\boldsymbol{x} \in \mathbb{R}^{d_{x}}$ |
+| the latent code |  $\boldsymbol{z} \in \mathbb{R}^{d_z}$  |
+|  the Generator  |               $G(\cdot)$                |
+
+
+
+The Jacobian matrix $\boldsymbol{J}_z$ of the $G$ with respect to $\boldsymbol{z}$ is defined as $\left(\boldsymbol{J}_{z}\right)_{j, k}=\frac{\partial G(\boldsymbol{z})_{j}}{\partial z_{k}}$
+
+$$
+\boldsymbol{x} = G(\boldsymbol{z})
+\\
+\boldsymbol{x}^{edit} = G(\boldsymbol{z} + \alpha \boldsymbol{n})
+\\
+G(\boldsymbol{z} + \alpha \boldsymbol{n}) = G(\boldsymbol{z}) + \alpha \boldsymbol{J}_z \boldsymbol{n} + o(\alpha)
+$$
+the perturbation on the attribute direction only has effect on a specific region.
+
+
+
+the low rank is $r_a$, the rest attribute vectors $d_z - r_a$
+
+
+
+
+
+attribute matrix on region $\boldsymbol{A} = [\boldsymbol{a}_1, \boldsymbol{a}_2, \dots, \boldsymbol{a}_{d_z}]$, has $r_a$ attribute vectors can change the region, the rest $d_z - r_a$ attribute vectors has no effect on region A.
+
+attribute matrix on region $\boldsymbol{B} = [\boldsymbol{b}_1, \boldsymbol{b}_2, \dots, \boldsymbol{b}_{d_z}]$, has $r_b$ attribute vectors can change the region, the rest $d_z - r_b$ attribute vectors has no effect on region B.
+
+
+
+They project the specific attribute vector $v_i$ of region A into a space where the perturbation on the attribute direction has no effect on region B yet has an influence on region.
+
+
+
+The null space 
