@@ -6,7 +6,7 @@ A collection of resources on Controllable Generation.
 
 > Some key words: interpreting, latent space navigation, steerable, interpretable, semantics, manual annotation, meaningful directions, Semantic image editing.
 
-*PS: this repo does **not** contains style transfer, I would prefer it as art creation (mix and interpolate fratures from different images).*
+*PS: this repo does **not** contains style transfer, I would tend to classify it as artistic creation (mix and interpolate features from different images).*
 
 [toc]
 
