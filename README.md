@@ -28,8 +28,6 @@ A summary here
 
 ## Category
 
-[for-Face-Steerability](https://github.com/yzy1996/awesome-generative-model/tree/main/for-face-steerability)
-
 [for-Style-Transfer](https://github.com/yzy1996/awesome-generative-model/tree/main/for-style-transfer)
 
-[for-3D-Generation](https://github.com/yzy1996/awesome-generative-model/tree/main/for-3D-generation)
+[for-3D-Generation](https://github.com/yzy1996/awesome-generative-model/tree/main/for-3D-Aware-Generation)
