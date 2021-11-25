@@ -1,5 +1,7 @@
 # <p align=center>`Controllable Generation`</p>
 
+![](https://img.shields.io/badge/-WIP-green)
+
 A collection of resources on Controllable Generation.
 
 > Some key words: interpreting, latent space navigation, steerable, interpretable, semantics, manual annotation, meaningful directions, Semantic image editing.
@@ -314,12 +316,8 @@ improves the memorability of the output image
   *Ceyuan Yang, Yujun Shen, Bolei Zhou*  
   **[`IJCV 2021`] (`CUHK`)**
 
-
-
-
-
 - [InterFaceGAN: Interpreting the Disentangled Face Representation Learned by GANs](https://arxiv.org/pdf/2005.09635.pdf)  
-  *Yujun Shen, Ceyuan Yang, Xiaoou Tang, Bolei Zhou*. 
+  *Yujun Shen, Ceyuan Yang, Xiaoou Tang, Bolei Zhou*  
   **[`TPAMI 2020`] (`CUHK`)**
 
 - [Disentangled Image Generation Through Structured Noise Injection](https://arxiv.org/pdf/2004.12411.pdf)  
@@ -356,7 +354,7 @@ Add labels to latent space and separate a hyperplane. A normal to this hyperplan
 
 
 
-#### self-supervised Learning
+#### Self-Supervised Learning
 
 > domain agnostic transformations (zooming or translation)
 >
@@ -376,7 +374,7 @@ solve the optimization problem in the latent space that maximizes the score of t
 
 
 
-#### unsupervised
+#### Unsupervised
 
 > are often less effective at providing semantic meaningful directions and all too often change image identity during an edit
 >
@@ -428,5 +426,5 @@ A geometric analysis of deep generative image models and its applications
 
 <span id="LowRankGAN"></span>
 [Low-Rank Subspaces in GANs](https://arxiv.org/pdf/2106.04488.pdf)  
-**[`Arxiv 2021`] (`HKUST, Alibaba, USTC`)**  
-*Jiapeng Zhu, Ruili Feng, Yujun Shen, Deli Zhao, Zhengjun Zha, Jingren Zhou, Qifeng Chen*
+*Jiapeng Zhu, Ruili Feng, Yujun Shen, Deli Zhao, Zhengjun Zha, Jingren Zhou, Qifeng Chen*  
+**[`NeurIPS 2021`] (`HKUST, Alibaba, USTC`)**  
