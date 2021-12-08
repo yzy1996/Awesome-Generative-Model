@@ -1,3 +1,37 @@
+## Introduction
+
+interpolation or extrapolation
+
+
+
+why do we care about:
+
+faithful data interpolation can be seen as a measure of the generalisation capacity of the a learning system (model + latent space)
+
+
+
+The task of data interpolation is to extra new samples between known data samples.
+
+
+
+The interpolation often leads to artifacts or produce unrealistic results during reconstruction.
+
+This is because the naively interpolated latent vectors deviate from the data manifold.
+
+
+
+We can regard the interpolate manifold as S1
+
+we hope is consistent with the training images 
+
+the manifold is smooth and locally convex
+
+
+
+so we need to consider the geometry and shape of the manifold
+
+
+
 [Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer](https://arxiv.org/pdf/1807.07543.pdf)  
 *David Berthelot, Colin Raffel, Aurko Roy, Ian Goodfellow*  
 **[`ICLR 2019`] (`Google Brain`)**
