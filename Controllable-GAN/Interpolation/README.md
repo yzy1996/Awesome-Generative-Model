@@ -15,9 +15,13 @@ Given a dataset sampled from a target domain $\mathcal{X}$. We are interested in
 **Why Bad - underlying theory:**
 
 - due to the structure of the latent space and such naively interpolated latent vectors deviate from the data manifold.
-- 
+- due to the un-clustered latent points  If the interpolation is not smooth, there may be “discontinuities” in latent space which could result in the representation being less useful as a learned feature.
 
 
+
+**Impact**
+
+widespread use of interpolation as a qualitative measure of autoencoder performance
 
 
 
@@ -68,6 +72,10 @@ The core is to shape the latent representation but the specific methods are diff
   > The motivation behind this approach is that the interpolation parameter $\alpha$ can be estimated for badly-interpolated images, while it is unpredictable for faithful interpolation. The data will provide some hint about the interpolation factor.
 
 **For unimodal data / continuous manifold:**
+
+
+
+
 
 
 
