@@ -42,7 +42,45 @@ implicit or explicit
 
 learn model for **single** or **multiple** objects.
 
+
+
+
+
+Given an unstructured 2D image collection, GANs are trained to synthesize geometrically-consistent multiview imagery of novel instances. 
+
+Given uncontrolled 2D image collections, 3D-aware image generation methods aim to learn a generative model that can explicitly control the camera viewpoint of the generated content.
+
+
+
+render patch
+
+
+
+
+$$
+G: (z, \theta) \in \mathbb{R}^{d+3} \rightarrow I \in \mathbb{R}^{H \times W \times 3}
+$$
+
+
+
+
+
+
 ## Literature
+
+utilize 3D-aware features to represent a scene, and apply a neural renderer, typically a CNN, on top of them for realistic image synthesis.
+
+
+
+[HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/pdf/1904.01326.pdf)  
+*Thu Nguyen-Phuoc, Chuan Li, Lucas Theis, Christian Richardt, Yong-Liang Yang*  
+**[`ICCV 2019`] (`University of Bath`)**
+
+[BlockGAN: Learning 3D Object-aware Scene Representations from Unlabelled Images](https://arxiv.org/pdf/2002.08988.pdf)  
+*Thu Nguyen-Phuoc, Christian Richardt, Long Mai, Yong-Liang Yang, Niloy Mitra*  
+**[`NeurIPS 2020`] (`University of Bath, Adobe`)**
+
+
 
 - [GIF: Generative Interpretable Faces](https://arxiv.org/pdf/2009.00149.pdf)  
   *Partha Ghosh, Pravir Singh Gupta, Roy Uziel, Anurag Ranjan, Michael Black, Timo Bolkart*  
@@ -66,12 +104,41 @@ learn model for **single** or **multiple** objects.
 
 
 
-[Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/abs/2011.13126)  
-Yichun Shi, Divyansh Aggarwal, Anil K. Jain
+
 
 
 
 Deep 3D Portrait from a Single Image
+
+
+
+learn direct 3D representation of scenes and synthesize images under physical-based rendering process to achieve more strict 3D consistency.
+
+use the volumetric rendering
+
+
+
+- [pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2012.00926.pdf)  
+  *Eric R. Chan, Marco Monteiro, Petr Kellnhofer, Jiajun Wu, Gordon Wetzstein*  
+  **[`CVPR 2021`] (`Stanford`)**
+
+- [Unconstrained Scene Generation with Locally Conditioned Radiance Fields](https://arxiv.org/pdf/2104.00670.pdf)  
+  *Terrance DeVries, Miguel Angel Bautista, Nitish Srivastava, Graham W. Taylor, Joshua M. Susskind*  
+  **[`ICCV 2021`] (`Apple`)**
+
+- [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2007.02442.pdf)  
+  *Katja Schwarz, Yiyi Liao, Michael Niemeyer, Andreas Geiger*  
+  **[`NeurIPS 2020`] (`MPI`)** [[Code](https://github.com/autonomousvision/graf)]  
+
+- [Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/pdf/2011.13126.pdf)  
+  *Yichun Shi, Divyansh Aggarwal, Anil K. Jain*  
+  **[`CVPR 2021`] (`Michigan`)**
+
+- [Unsupervised Generative 3D Shape Learning from Natural Images](https://arxiv.org/pdf/1910.00287.pdf)  
+  *Attila Szabó, Givi Meishvili, Paolo Favaro*  
+  **[`arXiv 2019`] (`Bern`)**
+
+
 
 
 
