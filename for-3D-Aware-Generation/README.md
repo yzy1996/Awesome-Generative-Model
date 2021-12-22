@@ -52,14 +52,33 @@ Given uncontrolled 2D image collections, 3D-aware image generation methods aim t
 
 
 
-render patch
+
+
+- Neural radiance field is overhead in rendering for both training and inference, a workaround to alleviate this cost is to only render images **patches**, but using a patch discriminator may lead to inferior synthesis quality. [GRAF]
 
 
 
+
+
+> **Problem settings:**
+
+Given a collection of real images, we learn a 3D-aware image generator $G$ which takes a random noise $z \in \mathbb{R}^d \sim p_z$ and a camera pose $\theta \in \mathbb{R}^3 \sim p_{\theta}$ as input, and outputs an image $I$ of a synthetic instance under pose $\theta$:
 
 $$
 G: (z, \theta) \in \mathbb{R}^{d+3} \rightarrow I \in \mathbb{R}^{H \times W \times 3}
 $$
+
+> **Training Strategy**
+
+Using a non-saturating GAN loss with R1 regularization:
+$$
+\mathcal{L}(D, G)=\mathbb{E}_{\boldsymbol{z} \sim p_{z}, \boldsymbol{\theta} \sim p_{\theta}}[f(D(G(\boldsymbol{z}, \boldsymbol{\theta})))] +\mathbb{E}_{I \sim p_{\text {real }}}\left[f(-D(I))+\lambda\|\nabla D(I)\|^{2}\right]
+$$
+add a pose regularization term:
+$$
+\mathcal{L}_{\text {pose }}= \mathbb{E}_{\boldsymbol{z} \sim p_{z}, \boldsymbol{\theta} \sim p_{\theta}}\left\|D_{p}(G(\boldsymbol{z}, \boldsymbol{\theta}))-\boldsymbol{\theta}\right\|^{2} +\mathbb{E}_{I \sim p_{\text {real }}}\left\|D_{p}(I)-\hat{\boldsymbol{\theta}}\right\|^{2}
+$$
+
 
 
 
@@ -118,33 +137,35 @@ use the volumetric rendering
 
 
 
-- [pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2012.00926.pdf)  
-  *Eric R. Chan, Marco Monteiro, Petr Kellnhofer, Jiajun Wu, Gordon Wetzstein*  
-  **[`CVPR 2021`] (`Stanford`)**
-
-- [Unconstrained Scene Generation with Locally Conditioned Radiance Fields](https://arxiv.org/pdf/2104.00670.pdf)  
-  *Terrance DeVries, Miguel Angel Bautista, Nitish Srivastava, Graham W. Taylor, Joshua M. Susskind*  
-  **[`ICCV 2021`] (`Apple`)**
-
-- [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2007.02442.pdf)  
-  *Katja Schwarz, Yiyi Liao, Michael Niemeyer, Andreas Geiger*  
-  **[`NeurIPS 2020`] (`MPI`)** [[Code](https://github.com/autonomousvision/graf)]  
-
-- [Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/pdf/2011.13126.pdf)  
-  *Yichun Shi, Divyansh Aggarwal, Anil K. Jain*  
-  **[`CVPR 2021`] (`Michigan`)**
-
 - [Unsupervised Generative 3D Shape Learning from Natural Images](https://arxiv.org/pdf/1910.00287.pdf)  
   *Attila Szabó, Givi Meishvili, Paolo Favaro*  
   **[`arXiv 2019`] (`Bern`)**
+- [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2007.02442.pdf)  
+  *Katja Schwarz, Yiyi Liao, Michael Niemeyer, Andreas Geiger*  
+  **[`NeurIPS 2020`] (`MPI`)** [[Code](https://github.com/autonomousvision/graf)]
+- [Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/pdf/2011.13126.pdf)  
+  *Yichun Shi, Divyansh Aggarwal, Anil K. Jain*  
+  **[`CVPR 2021`] (`Michigan`)**
+- [pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis](https://arxiv.org/pdf/2012.00926.pdf)  
+  *Eric R. Chan, Marco Monteiro, Petr Kellnhofer, Jiajun Wu, Gordon Wetzstein*  
+  **[`CVPR 2021`] (`Stanford`)**
+- [Unconstrained Scene Generation with Locally Conditioned Radiance Fields](https://arxiv.org/pdf/2104.00670.pdf)  
+  *Terrance DeVries, Miguel Angel Bautista, Nitish Srivastava, Graham W. Taylor, Joshua M. Susskind*  
+  **[`ICCV 2021`] (`Apple`)**
+- [CIPS-3D A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/pdf/2110.09788.pdf)  
+  *Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
+  **[`Arxiv 2021`] [`SJTU`]**
+
+- [GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation](https://arxiv.org/pdf/2112.08867.pdf)  
+  *Yu Deng, Jiaolong Yang, Jianfeng Xiang, Xin Tong*  
+  **[`arXiv 2021`] (`Tsinghua, Microsoft`)**
 
 
 
 
 
-#### +NeRF
 
-[CIPS-3D A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/pdf/2110.09788.pdf)  
-*Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
-**[`Arxiv 2021`] [`SJTU`]**
+#### 
+
+
 

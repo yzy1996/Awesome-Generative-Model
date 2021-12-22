@@ -10,8 +10,8 @@
 
 <span id="RGBD-GAN"></span>
 [RGBD-GAN: Unsupervised 3D Representation Learning From Natural Image Datasets via RGBD Image Synthesis](https://arxiv.org/pdf/1909.12573.pdf)  
+*Atsuhiro Noguchi, Tatsuya Harada*  
 **[`ICLR 2020`] (`U Tokyo, RIKEN`)**  
-*Atsuhiro Noguchi, Tatsuya Harada*
 
 <details><summary>Click to expand</summary>
 
@@ -30,8 +30,8 @@ $T(x)$ donates a stochastic data augmentation function. $D(x)$ donates the last 
 ---
 
 [Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/pdf/2011.00844.pdf)  
-**[`ICLR 2021`] (`CUHK, NTU`)**  
-*Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*
+*Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*  
+**[`ICLR 2021`] (`CUHK, NTU`)**
 
 <details><summary>Click to expand</summary><p>
 
@@ -46,8 +46,8 @@ ss
 ---
 
 [Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering](https://arxiv.org/pdf/2010.09125.pdf)  
-**[`ICLR 2021`] (`NVIDIA, Toronto`)**  
-*Yuxuan Zhang, Wenzheng Chen, Huan Ling, Jun Gao, Yinan Zhang, Antonio Torralba, Sanja Fidler*
+*Yuxuan Zhang, Wenzheng Chen, Huan Ling, Jun Gao, Yinan Zhang, Antonio Torralba, Sanja Fidler*  
+**[`ICLR 2021`] (`NVIDIA, Toronto`)**
 
 
 
@@ -57,9 +57,9 @@ ss
 
 ### BlockGAN
 
-[BlockGAN: Learning 3D Object-aware Scene Representations from Unlabelled Images](https://arxiv.org/abs/2002.08988)
-
-**`[NeurIPS 2020]`**	**`(Adobe)`**	**`[Thu Nguyen-Phuoc, Christian Richardt]`**	**[[Paper](https://github.com/thunguyenphuoc/BlockGAN)]**
+[BlockGAN: Learning 3D Object-aware Scene Representations from Unlabelled Images](https://arxiv.org/pdf/2002.08988.pdf)  
+*Thu Nguyen-Phuoc, Christian Richardt, Long Mai, Yong-Liang Yang, Niloy Mitra*  
+**[`NeurIPS 2020`] (`University of Bath, Adobe`)** [[Code](https://github.com/thunguyenphuoc/BlockGAN)]
 
 <details><summary>Click to expand</summary>
 
@@ -83,3 +83,16 @@ $$
 </details>
 
 ---
+
+[GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation](https://arxiv.org/pdf/2112.08867.pdf)  
+*Yu Deng, Jiaolong Yang, Jianfeng Xiang, Xin Tong*  
+**[`arXiv 2021`] (`Tsinghua, Microsoft`)**
+
+
+
+rather than Monte Carlo sampling
+
+
+
+using a manifold predictor to predict a reduced space for point sampling and radiance field learning.
+
