@@ -42,11 +42,14 @@ resemble real data， be applicable to real image editing without requiring ad-h
 
 
 
-There are two main approaches to embed instances from the image space to the latent space
+(Latent Space Embedding) There are two main approaches to embed instances from the image space to the latent space
 
 - learning based: learn an encoder (AE) 
   
   > train an extra encoder to learn the mapping from the image space to the latent space
+  >
+  > - fast solution fot a forward pass, 
+  > - but heavily rely on the training dataset 
   
   $$
   \theta_{E}^{*}=\underset{\theta_{E}}{\arg \min } \sum_{n} \mathcal{L}\left(G\left(E\left(x_{n} ; \theta_{E}\right)\right), x_{n}\right)
