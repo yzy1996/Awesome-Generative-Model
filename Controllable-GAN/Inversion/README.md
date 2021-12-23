@@ -91,6 +91,22 @@ multiple latent code
 
 
 
+
+
+The Robust:
+
+the generalization ability of GANs is sensitive to affine transformation
+
+is robust to defects in images 
+
+
+
+There are multiple latent spaces in StyleGAN that could be used for embedding. 
+
+
+
+
+
 ### Basic Inspiration
 
 > 基于一些研究发现能做得更好
@@ -114,48 +130,14 @@ There are many real-world applications, such as:
 
 ## Literature
 
-**GAN Inversion A Survey**
+[GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf)  
+*Weihao Xia, Yulun Zhang, Yujiu Yang, Jing-Hao Xue, Bolei Zhou, Ming-Hsuan Yang*  
 
 
 
 原理上的 2013 Signal recovery from pooling representations
 
 All of these inverting efforts are instances of the pre-image problem, [The pre-image problem in kernel methods]()
-
-
-
-Compressed Sensing using Generative Models
-
-
-
-2017 Precise Recovery of Latent Vectors from Generative Adversarial Networks
-
-2016 ECCV Generative visual manipulation on the natural image manifold.
-
-
-
-[Inverting the generator of a generative adversarial network](https://arxiv.org/pdf/1611.05644.pdf)  
-**[`NeurIPSW 2016`] (`Imperial College London`)**  
-*Antonia Creswell, Anil Anthony Bharath*
-
-[Generative visual manipulation on the natural image manifold](https://arxiv.org/pdf/1609.03552.pdf)  
-**[`ECCV 2016`]**  
-*Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros*
-
-[Inverting The Generator of A Generative Adversarial Network](https://arxiv.org/pdf/1611.05644.pdf)  
-*Antonia Creswell, Anil Anthony Bharath*  
-**[`NIPS 2016`] (`ICL`)** 
-
-[How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/pdf/1904.03189.pdf)  
-*Rameen Abdal, Yipeng Qin, Peter Wonka*  
-**[`ICCV 2019`] (`KAUST`)**	[[Code](https://github.com/NVlabs/stylegan)]
-
-
-
-[Image Processing Using Multi-Code GAN Prior](https://arxiv.org/pdf/1912.07116.pdf)  
-*Jinjin Gu, Yujun Shen, Bolei Zhou*  
-**[CVPR 2020] (CUHK)**
-
 
 
 
@@ -168,7 +150,7 @@ Compressed Sensing using Generative Models
 
 
 
-### learning-based (encoder)
+### Learning-based (Encoder)
 
 [Invertible Conditional GANs for image editing](https://arxiv.org/pdf/1611.06355.pdf)  
 *Guim Perarnau, Joost van de Weijer, Bogdan Raducanu, Jose M. Álvarez*  
@@ -178,21 +160,29 @@ Compressed Sensing using Generative Models
 *Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros*  
 **[`ECCV 2016`]**
 
-Seeing what a gan cannot generate  
-[ICCV 2019]
+[Seeing What a GAN Cannot Generate](https://arxiv.org/pdf/1910.11626.pdf)  
+*David Bau, Jun-Yan Zhu, Jonas Wulff, William Peebles, Hendrik Strobelt, Bolei Zhou, Antonio Torralba*  
+**[`ICCV 2019`] (`MIT`)**
 
-Inverting layers of a large generator  
-[ICLR 2019]
+[Inverting Deep Generative models, One layer at a time](https://arxiv.org/pdf/1906.07437.pdf)  
+*Qi Lei, Ajil Jalal, Inderjit S. Dhillon, Alexandros G. Dimakis*  
+**[`NeurIPS 2019`]**
 
-### optimization-based
+
+
+### Optimization-based
+
+[Generative visual manipulation on the natural image manifold](https://arxiv.org/pdf/1609.03552.pdf)  
+**[`ECCV 2016`]**  
+*Jun-Yan Zhu, Philipp Krähenbühl, Eli Shechtman, Alexei A. Efros*
 
 [Precise recovery of latent vectors from generative adversarial networks](https://arxiv.org/pdf/1702.04782.pdf)  
 *Zachary C. Lipton, Subarna Tripathi*  
 **[`ICLR W 2017`]**
 
-[Inverting The Generator Of A Generative Adversarial Network](https://arxiv.org/pdf/1802.05701.pdf)  
+[Inverting the Generator of A Generative Adversarial Network](https://arxiv.org/pdf/1802.05701.pdf)  
 *Antonia Creswell, Anil A Bharath*  
-**[`TNNLS 2018`]**
+**[`TNNLS 2018`] (ICL)**
 
 [Invertibility of Convolutional Generative Networks from Partial Measurements](https://proceedings.neurips.cc/paper/2018/file/e0ae4561193dbf6e4cf7e8f4006948e3-Paper.pdf)  
 *Fangchang Ma, Ulas Ayaz, Sertac Karaman*  
@@ -202,14 +192,17 @@ Inverting layers of a large generator
 *Rameen Abdal, Yipeng Qin, Peter Wonka*  
 **[`ICCV 2019`]**
 
-Precise recovery of latent vectors from generative adversarial networks  
+[Precise Recovery of Latent Vectors from Generative Adversarial Networks](https://arxiv.org/pdf/1702.04782.pdf)  
+*Zachary C. Lipton, Subarna Tripathi*  
+**[`ICLRW 2017`] (`UCSD`)**
 
 
 
-### initialization
+### Initialization
 
-Semantic photo manipulation with a generative image prior  
-[SIGGRAPH 2019]
+[Semantic Photo Manipulation with a Generative Image Prior](https://arxiv.org/pdf/2005.07727.pdf)  
+*David Bau, Hendrik Strobelt, William Peebles, Jonas Wulff, Bolei Zhou, Jun-Yan Zhu, Antonio Torralba*  
+**[`SIGGRAPH 2019`] (`MIT, CUHK`)**
 
 [Seeing What a GAN Cannot Generate](https://arxiv.org/pdf/1910.11626.pdf)  
 *David Bau, Jun-Yan Zhu, Jonas Wulff, William Peebles, Hendrik Strobelt, Bolei Zhou, Antonio Torralba*
@@ -247,7 +240,7 @@ multi latent code for one image
 
 [Image Processing Using Multi-Code GAN Prior](https://arxiv.org/pdf/1912.07116.pdf)  
 *Jinjin Gu, Yujun Shen, Bolei Zhou*  
-**[`CVPR 2020`]**
+**[`CVPR 2020`] (`CUHK`)**
 
 
 
@@ -271,7 +264,9 @@ focus on stylegan
 
 
 
-
+[Compressed Sensing using Generative Models](https://arxiv.org/pdf/1703.03208.pdf)  
+*Ashish Bora, Ajil Jalal, Eric Price, Alexandros G. Dimakis*  
+**[`ICML 2017`] (`UT-Austin`)**
 
 
 
