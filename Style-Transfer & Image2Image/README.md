@@ -35,6 +35,14 @@ Related Apps: Prisma
 
  learn translations between domains, applying to the context of source images a target appearance learned from a dataset.
 
+
+
+widely practical use, such as colorization, super resolution, semantic synthesis and domain adaption.
+
+
+
+the number of tags N and the number of attributes M
+
 ## Literature
 
 > The order is from the old to the latest
