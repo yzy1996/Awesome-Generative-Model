@@ -428,3 +428,13 @@ A geometric analysis of deep generative image models and its applications
 [Low-Rank Subspaces in GANs](https://arxiv.org/pdf/2106.04488.pdf)  
 *Jiapeng Zhu, Ruili Feng, Yujun Shen, Deli Zhao, Zhengjun Zha, Jingren Zhou, Qifeng Chen*  
 **[`NeurIPS 2021`] (`HKUST, Alibaba, USTC`)**  
+
+
+
+
+
+
+
+GAN models could capture the natural statistics while isolate independent factors of variation. These factors can be used used to control the outcome, but those perturbation will affect the global statistic of the images. So we want the manipulation occur at the localized level. The general methods will depend on the annotations of the independent factors. 
+
+We aim to learn spatially and semantically independent latent factors without the need for any annotation.
