@@ -16,7 +16,7 @@ Conventional generative models excel at generating random realistic samples with
 
 The goal is to generate or modify images satisfying our specific requirement. The requirement should be sementical meaningful interpretable and easy to distinguish without affecting other attributes (e.g. object pose,). The manipulation could be single or multi attributes of interest.
 
-The first line proposes conditional GANs to generate with $p(z|y)$ or employ auxiliary classifiers to enforce the gan network generate desired results.
+The first line proposes conditional GANs to generate with $p(z \mid y)$ or employ auxiliary classifiers to enforce the gan network generate desired results.
 
 Another line is to utilize the latent space of a pretrained generator for image manipulation. In this line, we could also control and modify a given real image by inversing the image into latent code (**inversion**). The main idea behind this method is to disentangle the latent space. A common practice is to analyze and dissect GANs’ latent spaces, finding disentangled latent variables suitable for editing. The disentangled latent variables sometimes are interpretable directions $d$. Careful modifications of the latent embeddings then translate to desired changes in generated output.
 $$
@@ -34,9 +34,12 @@ These valid direction could be seen as some manifold of the latent space, meanin
 
 We mainly focus on the *disentanglement in the latent space* of a generative model. We hope:
 
+- keep high-quality after editing
+
 - disentangle in an unsupervised manner
 - find more disentangled directions that do not interfere with each other
 - provide continuous manipulation of multiple attributes simultaneously
+- high-pricision
 
 One more thing is the interaction mode:
 
@@ -96,7 +99,7 @@ This is the summary of controllable GAN including;
 
 - 2.2 Analyze and dissect GANs’ latent spaces, finding disentangled latent variables suitable for editing
 
-  > :speech_balloon: do not enable detailed editing and are often slow.
+  > :speech_balloon: **do not enable detailed editing and are often slow**.
   >
   > used in real-time on different images and with different edits
 
@@ -168,8 +171,6 @@ current methods required
 ### Survey
 
 Representation learning: A review and new perspectives
-
-
 
 
 
@@ -271,8 +272,6 @@ click to see detailed notes
 the discovered directions   linear / nonlinear path
 
 their evaluation relies either on visual inspection or on laborious human labeling.
-
-
 
 - [EditGAN: High-Precision Semantic Image Editing](https://arxiv.org/pdf/2111.03186.pdf)  
   *Huan Ling, Karsten Kreis, Daiqing Li, Seung Wook Kim, Antonio Torralba, Sanja Fidler*  
