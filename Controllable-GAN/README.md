@@ -437,3 +437,19 @@ A geometric analysis of deep generative image models and its applications
 GAN models could capture the natural statistics while isolate independent factors of variation. These factors can be used used to control the outcome, but those perturbation will affect the global statistic of the images. So we want the manipulation occur at the localized level. The general methods will depend on the annotations of the independent factors. 
 
 We aim to learn spatially and semantically independent latent factors without the need for any annotation.
+
+
+
+VAE-based methods use the total correlation of the latent variable distributions as the penalty
+
+InfoGAN-based methods maximize the mutual information between latent factors ad related observations.
+
+Usually the extra terms lead to worse generation quality for these typical disentanglement methods.
+
+GAN-based methods discover semantically meaningful directions in the style space of StyleGAN by analysing the distribution of teh first-layer output or layer weights.
+
+[GANSpace: Discovering Interpretable GAN Controls](https://arxiv.org/pdf/2004.02546.pdf)  
+*Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, Sylvain Paris*  
+**[`NeurIPS 2020`] (`Aalto, Adobe, NVIDIA`)**
+
+Closed-form factorization of latent semantics in gans
