@@ -21,5 +21,7 @@ They propose an embedding algorithm to map a given image into the latent space o
 
 
 
+Semantic photo manipulation with a generative image prior
+
 
 

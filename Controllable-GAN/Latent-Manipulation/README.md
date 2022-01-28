@@ -97,6 +97,28 @@ Two Summaries:
 **[`ICML 2018`] (`Facebook`)**  
 *Piotr Bojanowski, Armand Joulin, David Lopez-Paz, Arthur Szlam*
 
+
+
+Interfacegan: Interpreting the disentangled face representation learned by gans
+
+Interpreting the latent space of gans for semantic face editing
+
+Editing in style: Uncovering the local semantics of gans
+
+Image2stylegan: How to embed images into the stylegan latent space?
+
+Stylespace analysis: Disentangled controls for stylegan image generation
+
+
+
+> augmenting and regularizing the latent space
+
+A free viewpoint portrait generator with dynamic styling
+
+Disentangled image generation through structured noise injection
+
+Gan-control: Explicitly controllable gans
+
 ## Main Research Group
 
 - CUHK Zhou bolei

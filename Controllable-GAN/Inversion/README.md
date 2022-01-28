@@ -252,11 +252,13 @@ multi latent code for one image
 
 
 
-focus on stylegan
+#### focus on stylegan
 
 [Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/pdf/1912.04958.pdf)  
 *Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila*  
 **[`CVPR 2020`]**
+
+Image2stylegan: How to embed images into the stylegan latent space?
 
 [Image2StyleGAN++: How to Edit the Embedded Images?](https://arxiv.org/pdf/1911.11544.pdf)  
 *Rameen Abdal, Yipeng Qin, Peter Wonka*  
