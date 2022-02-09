@@ -156,6 +156,19 @@ current methods required
 
 
 
+### Metrics
+
+> 我们需要一些，其实也是面对整个大的解耦学习 Disentanglement Learning 
+
+[Measuring Disentanglement: A Review of Metrics](https://arxiv.org/pdf/2012.09276.pdf)  
+Julian Zaidi, Jonathan Boilard, Ghyslain Gagnon, Marc-André Carbonneau  
+
+
+
+[Theory and Evaluation Metrics for Learning Disentangled Representations](https://arxiv.org/pdf/1908.09961.pdf)  
+*Kien Do, Truyen Tran*  
+**[`ICLR 2020`] ()**
+
 
 
 ### Tricks
