@@ -160,6 +160,12 @@ current methods required
 
 > 我们需要一些，其实也是面对整个大的解耦学习 Disentanglement Learning 
 
+Inspired by Bengio, we cam adopt the notion of disentangled representation learning as "a process of decorrelating information in the data into separate informative representations, each of which corresponds to a concept defined by humans".
+
+So the three important properties can be summarized as **informativeness**, **separability**, and **interpretability**.
+
+
+
 [Measuring Disentanglement: A Review of Metrics](https://arxiv.org/pdf/2012.09276.pdf)  
 Julian Zaidi, Jonathan Boilard, Ghyslain Gagnon, Marc-André Carbonneau  
 
