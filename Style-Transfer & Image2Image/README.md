@@ -47,9 +47,21 @@ the number of tags N and the number of attributes M
 
 > The order is from the old to the latest
 
+[Image-to-Image Translation with Conditional Adversarial Networks](https://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf)  
+*Phillip Isola Jun-Yan Zhu Tinghui Zhou Alexei A. Efros*  
+**[`CVPR 2017`]**
+
 [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html)  
 *Leon A. Gatys, Alexander S. Ecker, Matthias Bethge*  
 **[`CVPR 2016`]**	**(`Tubingen`)**
+
+[Unsupervised Image-to-Image Translation Networks](https://arxiv.org/pdf/1703.00848)  
+*Ming-Yu Liu, Thomas Breuel, Jan Kautz*  
+**[`NeurIPS 2017`] ()**
+
+[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593)  
+*Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros*  
+**[`ICCV 2017`] (`UCB`)**
 
 [A Closed-form Solution to Photorealistic Image Stylization](https://arxiv.org/abs/1802.06474)  
 *Yijun Li, Ming-Yu Liu, Xueting Li, Ming-Hsuan Yang, Jan Kautz*  
@@ -58,8 +70,6 @@ the number of tags N and the number of attributes M
 [CoMoGAN: continuous model-guided image-to-image translation](https://arxiv.org/abs/2103.06879)  
 *Fabio Pizzati, Pietro Cerri, Raoul de Charette*  
 **[`CVPR 2021 (oral)`]**	**(`Inria`)**	[[Github](https://github.com/cv-rits/CoMoGAN)]
-
-
 
 
 

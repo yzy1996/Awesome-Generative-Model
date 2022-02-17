@@ -7,26 +7,18 @@
 ---
 
 <span id="CR-GAN"></span>
-[Rethinking and Improving the Robustness of Image Style Transfer](https://arxiv.org/pdf/2104.05623.pdf)  
-**[`CVPR 2021`]  (`UCSD, Adobe`)**  
-*Pei Wang, Yijun Li, Nuno Vasconcelos*
+[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593)  
+*Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros*  
+**[`ICCV 2017`] (`UCB`)**
 
 <details><summary>Click to expand</summary>
-
-<div align=center><img width="700" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/20201119220419.png"/></div>
-
 > **Summary**
 
-They propose a training stabilizer based on **consistency regularization**. In particular, they **augment data** passing into the GAN discriminator and **penalize the sensitivity** of the discriminator to these augmentations.
+这里的generator跟*Perceptual losses for real-time style transfer and super-resolution*是一样的。他们使用了Instance Normalization。判别器使用的和pix2pix一样(PatchGAN on 70x70 patches). 为了稳定GAN的训练，他们使用了最小二乘gan（least square gan）和 Replay buffer。不像pix2pix，他们的模型没有任何的随机性。（没有随机输入z，没有dropout）这里的生成器更像是一个deteministic的style transfer模型，而不是一个条件GAN。他们使用了L1距离作为cycle consistency.
+DualGAN:他们的生成器和判别器都和pix2pix一样 (没有随机输入z，但是有dropout的随机)。 他们用了wgan来训练。cycle consistency同样选用了l1。
+DiscoGAN:他们用了conv，deconv和leaky relu组成了生成器，然后一个conv+leaky relu作为判别器。他们用l2作为cycle consistency。
 
-> **Details**
-
-$T(x)$ donates a stochastic data augmentation function. $D(x)$ donates the last layer before the activation function. The proposed regularization is given by:
-
-Latex
-$$
-\operatorname{argmin}_{\theta} \mathcal{L}(\theta)=\mathbb{E}_{\mathbf{z}, \mathbf{y}, \alpha}\left[\left(A\left(G\left(T_{\theta}(\mathbf{z}, \alpha), \mathbf{y}\right)\right)-(A(G(\mathbf{z}, \mathbf{y}))+\alpha)\right)^{2}\right]
-$$
+> https://zhuanlan.zhihu.com/p/26332365
 
 </details>
 

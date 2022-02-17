@@ -16,13 +16,9 @@ This is come from the real-world application with well-trained GANs
 
 
 
-
-
 前提假设是：When z1; z2 2 Z are close in the Z space, the corresponding images x1; x2 2 X are visually similar.
 
 given a real image x, find a  latent representation z*, which could generate an image x’ and is close to x
-
-
 
 
 
