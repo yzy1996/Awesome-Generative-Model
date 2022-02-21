@@ -31,7 +31,7 @@ Photorealistic image stylization aims at changing style of a photo to that of a 
 
 Related Apps: Prisma
 
-<image>
+
 
  learn translations between domains, applying to the context of source images a target appearance learned from a dataset.
 
@@ -42,6 +42,20 @@ widely practical use, such as colorization, super resolution, semantic synthesis
 
 
 the number of tags N and the number of attributes M
+
+
+
+It has attracted increasing attentions since its widely practical use, such as 
+
+- colorization, 
+
+- super resolution
+
+  > 为什么这个也能用到呢？
+
+- semantic synthesis.
+
+
 
 ## Literature
 
