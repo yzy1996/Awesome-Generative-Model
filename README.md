@@ -28,6 +28,6 @@ A summary here
 
 ## Category
 
-[for-Style-Transfer](./Style-Transfer & Image2Image)
+[for-Style-Transfer](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Style-Transfer%20%26%20Image2Image)
 
-[for-3D-Generation](https://github.com/yzy1996/awesome-generative-model/tree/main/for-3D-Aware-Generation)
+[for-3D-aware-Generation](https://github.com/yzy1996/awesome-generative-model/tree/main/for-3D-Aware-Generation)
