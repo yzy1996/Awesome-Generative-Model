@@ -12,7 +12,7 @@ A collection of resources on Controllable Generation.
 
 ## Introduction
 
-Conventional generative models excel at generating random realistic samples with statistics resembling the training set. However, controllable and interactive matters rather than random. GANs do not provide an inherent way of comprehending or controlling the underlying generative factors. But some researches show that a well-trained GAN is able to encode different semantics inside the latent space. Therefore, a key problem of Generative Models is to gain explicit control of the synthesis process or results.
+Conventional generative models excel at generating random realistic samples with statistics resembling the training set. However, controllable and interactive matters rather than random. GANs do not provide an inherent way of comprehending or controlling the underlying generative factors. But some researches show that a well-trained GAN is able to encode different semantics inside the latent space. Therefore, a key problem of generative models is to gain explicit control of the synthesis process or results.
 
 The goal is to generate or modify images satisfying our specific requirement. The requirement should be sementical meaningful interpretable and easy to distinguish without affecting other attributes (e.g. object pose,). The manipulation could be single or multi attributes of interest.
 
@@ -84,8 +84,6 @@ This is the summary of controllable GAN including;
 - [training stage] conditional GAN mode 
 - [test stage] modify a pre-trained GAN model
 - [test stage] modify a latent code of a given image
-
-
 
 
 
