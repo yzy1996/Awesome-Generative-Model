@@ -1,12 +1,10 @@
-# <p align=center>`awesome Generative Model for Face Steerability` </p>
+# <p align=center>`GAN Latent Manipulation` </p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-A collection of resources on Application of Generative Model in Face Steerability.
-
-edit face (facial features)
+A collection of resources on GAN Latent Manipulation.
 
 ## Contributing
 
@@ -16,14 +14,19 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
-**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
 *[Author 1](homepage), Author 2, and Author 3.*  
-<details><summary>Click to expand</summary><p>
-A summary here
-</p></details>
+**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
 ```
 
 ## Introduction
+
+GANs can produce high-fidelity images visually indistinguishable from real ones.
+
+Pre-trained GAN models spontaneously learn rich knowlegde in latent spaces such that moving latent codes towards some certain directions can cause corresponding attribute change in images. 
+
+
+
+
 
 **Definition:** Control a single attribute of interest, e.g. pose in our goal, without affecting other ones.
 
