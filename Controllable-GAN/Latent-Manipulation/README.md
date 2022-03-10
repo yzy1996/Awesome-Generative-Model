@@ -24,7 +24,9 @@ GANs can produce high-fidelity images visually indistinguishable from real ones.
 
 Pre-trained GAN models spontaneously learn rich knowlegde in latent spaces such that moving latent codes towards some certain directions can cause corresponding attribute change in images. 
 
+So we can control the generation process by identifying semantically meaningful latent subspaces.
 
+<Low-Rank GAN>
 
 
 
