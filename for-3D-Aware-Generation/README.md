@@ -16,11 +16,8 @@ markdown format:
 
 ``` markdown
 [Paper Name](abs/pdf link)  
-**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
 *[Author 1](homepage), Author 2, and Author 3.*  
-<details><summary>Click to expand</summary><p>
-A summary here
-</p></details>
+**[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
 ```
 
 
@@ -159,6 +156,8 @@ use the volumetric rendering
 - [GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation](https://arxiv.org/pdf/2112.08867.pdf)  
   *Yu Deng, Jiaolong Yang, Jianfeng Xiang, Xin Tong*  
   **[`arXiv 2021`] (`Tsinghua, Microsoft`)**
+
+
 
 
 

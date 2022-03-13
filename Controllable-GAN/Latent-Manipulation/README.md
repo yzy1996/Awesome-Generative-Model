@@ -1,4 +1,4 @@
-# <p align=center>`GAN Latent Manipulation` </p>
+# <p align=center>`GAN Latent Semantic Manipulation` </p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -26,7 +26,81 @@ Pre-trained GAN models spontaneously learn rich knowlegde in latent spaces such 
 
 So we can control the generation process by identifying semantically meaningful latent subspaces.
 
+this would help us understand the internal representation learned by GANs and futher control the generation process.
+
 <Low-Rank GAN>
+
+
+
+The question is how do we establish the relationship between the latent code and the image?
+
+
+
+> We can first generate a collection of image synthesis, then label these images regarding a target attributesm, and finally find the latent separation boundary through supervised training.
+
+[Ganalyze: Toward visual definitions of cognitive image properties](https://arxiv.org/pdf/1906.10112.pdf)  
+*Lore Goetschalckx, Alex Andonian, Aude Oliva, Phillip Isola*  
+**[`CVPR 2019`] (`MIT, KU Leuven`)**
+
+[Interpreting the latent space of gans for semantic face editing](https://arxiv.org/pdf/1907.10786.pdf)  
+*Yujun Shen, Jinjin Gu, Xiaoou Tang, Bolei Zhou*  
+**[`CVPR 2020`] (`CUHK`)**
+
+
+
+Interfacegan: Interpreting the disentangled face representation learned by GANs
+
+> simple image transformations 
+
+On the" steerability" of generative adversarial networks
+
+Controlling generative models with continuous factors of variations
+
+
+
+
+
+- using unsupervised manner such as PCA to find steerable direction
+
+  Unsupervised discovery of interpretable directions in the GAN latent space
+
+  Closed-form factorization of latent semantics in GANs
+
+  Ganspace: Discovering interpretable GAN controls
+
+  GAN steerability without optimization
+
+
+
+
+
+
+
+Global semantics 不够，想要 particular image region, 最简单的也是依靠mask
+
+Spatially controllable image synthesis with internal representation collaging
+
+Editing in style: Uncovering the local semantics of GANs
+
+Semantic photo manipulation with a generative image prior
+
+Generative hierarchical features from synthesizing images
+
+Decorating your own bedroom: Locally controlling image generation with generative adversarial networks
+
+
+
+Semantic hierarchy emerges in deep generative representations for scene synthesis
+
+In-domain GAN inversion for real image editing
+
+
+
+Human-in-the-loop differential subspace search in high-dimensional latent space
+
+A spectral regularizer for unsupervised disentanglement
+
+The geometry of deep generative image models and its applications
 
 
 
@@ -130,7 +204,7 @@ Gan-control: Explicitly controllable gans
 
 
 
-
+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
 
 
 
