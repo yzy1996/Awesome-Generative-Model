@@ -71,6 +71,8 @@ some simple transformation (rotation, zooming)
 
 - for artistic visualization, design, photo enhancement
 
+- solving many other downstream tasks, including face verification, landmark detection, layout prediction, transfer learning, style mixing, image editing, *etc*.
+
 
 
 

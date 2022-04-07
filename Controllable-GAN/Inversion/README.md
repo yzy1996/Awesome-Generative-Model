@@ -40,7 +40,7 @@ resemble real data， be applicable to real image editing without requiring ad-h
 
 (Latent Space Embedding) There are two main approaches to embed instances from the image space to the latent space
 
-- learning based: learn an encoder (AE) 
+- learning based: learn an encoder 
   
   > train an extra encoder to learn the mapping from the image space to the latent space
   >
