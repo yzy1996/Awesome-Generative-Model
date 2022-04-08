@@ -96,3 +96,12 @@ rather than Monte Carlo sampling
 
 using a manifold predictor to predict a reduced space for point sampling and radiance field learning.
 
+
+
+
+
+---
+
+[Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/pdf/2011.00844.pdf)  
+*Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*  
+**[`ICLR 2021`] (`CUHK, NTU`)**  
