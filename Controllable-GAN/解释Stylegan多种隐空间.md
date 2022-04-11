@@ -106,3 +106,21 @@ Z空间就直接随机生成就好了，10000张图
 
 参考[interfacegan](https://github.com/genforce/interfacegan)
 
+
+
+
+
+
+
+**解读 StyleSpace Analysis**
+
+<img src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/image-20220410163940204.png" alt="image-20220410163940204" style="zoom:50%;" />
+
+核心是要找到一个新的S空间，而这个空间是怎么找出来的呢
+
+
+
+
+
+
+
