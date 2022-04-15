@@ -1,10 +1,18 @@
-# <p align=center>`awesome Generative Model for 3D-aware Generation`</p>
+# <p align=center>`awesome 3D-aware Generation`</p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-A collection of resources on 3D generation (mainly on face).
+A collection of resources on 3D generation. This collection is organized as follows:
+
+- Introduction
+- Literature
+  - Neural Implicit Representation
+  - Voxel Representation
+  - Depth Representation
+  - Hybrid Representation
+  - 3D Control
 
 
 
@@ -23,6 +31,10 @@ markdown format:
 
 
 ## Introduction
+
+2D GANs lack knowledge of 3D structure. 3D aware generation brings much more xx into generative models. The core insight is to use a 3D representation approach.
+
+
 
 generative 3D face model
 
@@ -86,7 +98,7 @@ $$
 
 utilize 3D-aware features to represent a scene, and apply a neural renderer, typically a CNN, on top of them for realistic image synthesis.
 
-
+### Voxel Representation
 
 [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/pdf/1904.01326.pdf)  
 *Thu Nguyen-Phuoc, Chuan Li, Lucas Theis, Christian Richardt, Yong-Liang Yang*  
@@ -159,7 +171,7 @@ use the volumetric rendering
 
 
 
-
+### Neural Implicit Representation
 
 
 
