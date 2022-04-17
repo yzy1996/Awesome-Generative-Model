@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/-WIP-green)
 
-A collection of resources on Controllable Generation.
+A collection of resources on Controllable Generation. Specific attribute-pose is summarized in [3D-Aware-Generation](../3D-Aware-Generation)
 
-> Some key words: interpreting, latent space navigation, steerable, interpretable, semantics, manual annotation, meaningful directions, Semantic image editing, independence, exclusiveness.
+> Some key words: interpreting, latent space navigation, steerable, interpretable, semantics, manual annotation, meaningful directions, semantic image editing, independence, exclusiveness.
 
 *PS: this repo does **not** contains style transfer, I would tend to classify it as artistic creation (mix and interpolate features from different images).*
 
