@@ -133,7 +133,7 @@ multi-view
 
 #### `Implicit Neural Representation`
 
-> For more information, plz ref [INR]().
+> For more information, plz ref [INR](https://github.com/yzy1996/Artificial-Intelligence/tree/main/1-Machine-Learning/1-Generative-Models/3D%20Representation%20%26%20Reconstruction/Neural%20Implicit%20Surfaces).
 
 - [Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/abs/1911.11130)  
   *Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi*  
