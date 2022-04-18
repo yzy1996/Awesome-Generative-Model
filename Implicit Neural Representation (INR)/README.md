@@ -1,8 +1,8 @@
 # <p align=center>`Implicit Neural Representation` </p>
 
+[Neural Implicit Representations for 3D Vision and Beyond by Dr. Andreas Geiger](https://www.youtube.com/watch?v=jennURL-gtQ)
 
-
-
+https://github.com/vsitzmann/awesome-implicit-representations
 
 ## 1. Introduction
 
