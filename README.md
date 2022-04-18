@@ -9,25 +9,23 @@ A collection of resources on Generative Model.
 
 ## Contributing
 
-Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I have also released the [latex-pdf version](). 
-
-markdown format:
+Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I will release the [latex-pdf version]() in the future. :arrow_down:markdown format:
 
 ``` markdown
-[Paper Name](abs/pdf link)  
-*[Author 1](homepage), Author 2, and Author 3.*
+[Paper Name](abs link)  
+*[Author 1](homepage), Author 2, and Author 3*
 **[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
-<details><summary>Click to expand</summary><p>
-A summary here
-</p></details>
 ```
 
-🙏Thanks [weihaox](https://github.com/weihaox)' work
+:exclamation: Now you can use this [script](https://github.com/yzy1996/Python-Code/tree/master/Python%2BarXiv) to automatically generate the above text.
 
-
+🙏 Thanks [weihaox](https://github.com/weihaox).
 
 ## Category
 
+[for 3D-Aware Generation](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/3D-Aware-Generation)
+
+[for Controllable Generation](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Controllable-GAN)
+
 [for-Style-Transfer](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Style-Transfer%20%26%20Image2Image)
 
-[for-3D-aware-Generation](https://github.com/yzy1996/awesome-generative-model/tree/main/for-3D-Aware-Generation)
