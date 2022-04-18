@@ -55,7 +55,7 @@ To ease the problem, researchers normally learn a 3D prior from a collection wit
 
 Given unstructured 2D image collections, 3D-aware image generation methods aim to learn a generative model that can explicitly control the camera viewpoint of the generated content. The generator G which takes a random noise z and a camera pose \theta as input, and outputs an image I under pose \theta:
 
-![mylatex20220419_011353](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011353.svg)
+<div align=center><img width="300" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011353.svg"/></div>
 
 **The goal is to** provide parametric control and photo-realistic synthesis.
 
@@ -77,11 +77,11 @@ learning direct 3D representation of scenes and synthesize images under physical
 
 Using a non-saturating GAN loss with R1 regularization:
 
-![mylatex20220419_011253](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011253.svg)
+<div align=center><img width="600" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011253.svg"/></div>
 
 add a pose regularization term:
 
-![mylatex20220419_011327](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011327.svg)
+<div align=center><img width="500" src="https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011327.svg"/></div>
 
 differentiable renderer allow one to infer 3D from 2D images without requiring 3D ground-truth 
 
