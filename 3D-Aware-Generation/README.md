@@ -27,67 +27,29 @@ markdown format:
 
 ## Introduction
 
-[中文版介绍](知乎)
-
-
-
-
-
-（为什么要研究这个问题）
+（为什么要研究这个问题?）
 
 Reconstructing 3D objects from 2D images is one of the mainstream problems in3D computer vision. It is important for controlling the generation process to be able to manipulate some semantic attributes in the generated results. Among these attributes, 3D information such as pose has attracted much more attention.
 
-（这个问题如何研究）
+（这个问题如何研究?）
 
-Methods to solve can be categorized into two types: 1) learn a generator synthesise images under different disentangled feature; 2) learn a 3D shape representation as an intermediate process and cast images with differentiable rendering.
+Methods to solve can be categorized into two types: 1) learn a generator synthesise images under different disentangled feature; 2) learn a 3D shape representation as an intermediate process and cast images with differentiable rendering. 后者将问题分解为[如何通过2D数据表征3D] [如何从3D投影回去2D] 
 
-（如果这个问题很难，有什么办法缓解吗）
+（如果这个问题很难，有什么办法缓解吗?）
 
 To ease the problem, researchers normally learn a 3D prior from a collection within a category, and also utilize some supervision signals, such as multiview images, pose labels, landmarks, and masks.
 
 
 
-
-
->2D GAN 的训练集是一系列2D图像（celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像。(满足这一定义的都会归属到这一类)
+>2D GAN 的训练集是一系列2D图像（如celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像 (满足这一定义的都会归属到这一笔记文档)。
 >
->通过3D表征，得到图像背后的3D shape 或者 scene，然后通过 differentiable renderer 就可以映射回2D图像
 >
->[如何表征3D] [如何映射回去]
 >
->有两种，一种是不生成中间3D shape, 直接到多视角图像，某些feature直接控制了视角，
+>主流方法有两种，1）一种是不生成中间3D shape，直接到多视角图像，通过某些latent feature直接控制了视角，这种属于隐式控制（不是直接的相机参数）。2）另一种是生成一个中间3D shape结构，3D结构都有了，再加上一个显式的相机参数，就可以物理渲染出任意视角的2D图像；这样的效果会更好一些，相当于是先升维后再降维。
 >
->另一种是生成中间3D shape, 这样的效果会更好一些，是先升维后再降维的。
 >
->从2D图像中重建或者生成3D形状，则提供了另外一条思路。
-
-
-
-我们是想要通过2D学习3D，
-
-最终要的还是2D照片，但学到的是3D表征，最后用一个相机固定2D视角，因此可以生成多个角度的图像
-
-
-
-
-
-the difference between **3D reconstruction** 就可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；而另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
-
-between multi-view generation from single image
-
-
-
-
-
-其他人会用到的子标题：
-
-> Pose-Disentangled2D GANs
 >
-> Unsupervised 3D Reconstruction and Generationfrom 2D Images
->
-> 3D prior for GANs
-
-
+>本笔记重点关注第二种方法。
 
 
 
@@ -103,11 +65,15 @@ $$
 
 **The goal is to** provide parametric control and photo-realistic synthesis.
 
-
-
-
-
 learning direct 3D representation of scenes and synthesize images under physical-based rendering process (volumetric rendering) to achieve more strict 3D consistency.
+
+
+
+> the difference between **3D reconstruction**
+
+可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
+
+> the difference between **multi-view generation from single image**
 
 
 
@@ -126,18 +92,28 @@ differentiable renderer allow one to infer 3D from 2D images without requiring 3
 
 
 
+> **Related subtitles**
+
+- Pose-Disentangled2D GANs
+- Unsupervised 3D Reconstruction and Generationfrom 2D Images
+- 3D prior for GANs
+
+
+
 > **Future**
 
 object-centric->large scale scene
 
-multi objects
+object-centric->multi objects
 
 
 
 ## Literature
 
 > 结构划分，utilize 3D-aware features to represent a scene, and apply a neural renderer, typically a CNN, on top of them for realistic image synthesis.
->
+
+multi-view 
+
 > 有3D shape 作为中间过渡的
 
 
@@ -202,7 +178,7 @@ multi objects
 
 - [CIPS-3D A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/abs/2110.09788)  
   *Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
-  **[`Arxiv 2021`] [`SJTU`]** [[Code](https://github.com/PeterouZh/CIPS-3D)]
+  **[`arXiv 2021`] [`SJTU`]** [[Code](https://github.com/PeterouZh/CIPS-3D)]
 
 - [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields](https://arxiv.org/abs/2103.17269)  
   *Michael Niemeyer, Andreas Geiger*  

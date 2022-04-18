@@ -10,6 +10,12 @@
 
 
 
+也可以叫 neural implicit function
+
+
+
+
+
 几个经典网络：
 
 - Occupancy Networks
