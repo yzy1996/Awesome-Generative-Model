@@ -120,13 +120,13 @@ multi-view
 
 - [with 3D shape](#with-3D-shape)
 
-  - Neural Implicit Representation
+  - [Neural Implicit Representation](#Neural-Implicit-Representation)
 
-  - Voxel
+  - [Voxel](#Voxel)
 
-  - Mesh
+  - [Mesh](#Mesh)
 
-  - Hybrid
+  - [Hybrid](#Hybrid)
 
   - pre-defined 3D parameteric model
 
