@@ -73,6 +73,8 @@ To ease the problem, researchers normally learn a 3D prior from a collection wit
 
 the difference between **3D reconstruction** 就可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；而另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
 
+between multi-view generation from single image
+
 
 
 
