@@ -35,11 +35,11 @@ $T(x)$ donates a stochastic data augmentation function. $D(x)$ donates the last 
 
 <details><summary>Click to expand</summary><p>
 
-ss
+
 
 > **Summary**
 
-重点是弄清楚 project 是如何做到的
+
 
 </p></details>
 
