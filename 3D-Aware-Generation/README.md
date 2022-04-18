@@ -55,6 +55,8 @@ To ease the problem, researchers normally learn a 3D prior from a collection wit
 
 
 
+
+
 > **Problem settings:**
 
 Given unstructured 2D image collections, 3D-aware image generation methods aim to learn a generative model that can explicitly control the camera viewpoint of the generated content.
