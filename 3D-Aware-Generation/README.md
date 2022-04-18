@@ -11,11 +11,11 @@ A collection of resources on 3D-aware generation or learning 3D from 2D, focusin
 
 
 
+Ref rep: [awesome-3D-generation](https://github.com/justimyhxu/awesome-3D-generation)
+
 ## Contributing
 
-Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I will release the [latex-pdf version]() in the future. 
-
-markdown format:
+Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I will release the [latex-pdf version]() in the future.  :arrow_down:markdown format:
 
 ``` markdown
 [Paper Name](abs link)  
@@ -23,7 +23,9 @@ markdown format:
 **[`Conference/Journal Year`] (`Institution`)** [[Code](link)] [[Project](link)]
 ```
 
+:exclamation: Now you can use this [script](https://github.com/yzy1996/Python-Code/tree/master/Python%2BarXiv) to automatically generate the above text.
 
+:warning: To better display the formula, you'd better local download this file and view it.
 
 ## Introduction
 
@@ -71,9 +73,11 @@ learning direct 3D representation of scenes and synthesize images under physical
 
 > the difference between **3D reconstruction**
 
-可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
+重建一般是针对单一物体的，而生成是可以生成更多的，甚至是不真实存在的。
 
 > the difference between **multi-view generation from single image**
+
+可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
 
 
 
