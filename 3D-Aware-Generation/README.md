@@ -29,6 +29,14 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 
 ## Introduction
 
+2D GAN 的训练集是一系列2D图像（如celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像 (满足这一定义的都会归属到这一笔记文档)。
+
+主流方法有两种，1）一种是不生成中间3D shape，直接到多视角图像，通过某些latent feature直接控制了视角，这种属于隐式控制（不是直接的相机参数）。2）另一种是生成一个中间3D shape结构，3D结构都有了，再加上一个显式的相机参数，就可以物理渲染出任意视角的2D图像；这样的效果会更好一些，相当于是先升维后再降维。
+
+本笔记重点关注第二种方法。
+
+
+
 （为什么要研究这个问题?）
 
 Reconstructing 3D objects from 2D images is one of the mainstream problems in3D computer vision. It is important for controlling the generation process to be able to manipulate some semantic attributes in the generated results. Among these attributes, 3D information such as pose has attracted much more attention.
@@ -43,29 +51,11 @@ To ease the problem, researchers normally learn a 3D prior from a collection wit
 
 
 
->2D GAN 的训练集是一系列2D图像（如celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像 (满足这一定义的都会归属到这一笔记文档)。
->
->
->
->主流方法有两种，1）一种是不生成中间3D shape，直接到多视角图像，通过某些latent feature直接控制了视角，这种属于隐式控制（不是直接的相机参数）。2）另一种是生成一个中间3D shape结构，3D结构都有了，再加上一个显式的相机参数，就可以物理渲染出任意视角的2D图像；这样的效果会更好一些，相当于是先升维后再降维。
->
->
->
->本笔记重点关注第二种方法。
-
-
-
-
-
 > **Problem settings:**
 
-Given unstructured 2D image collections, 3D-aware image generation methods aim to learn a generative model that can explicitly control the camera viewpoint of the generated content.
+Given unstructured 2D image collections, 3D-aware image generation methods aim to learn a generative model that can explicitly control the camera viewpoint of the generated content. The generator G which takes a random noise z and a camera pose \theta as input, and outputs an image I under pose \theta:
 
-Given a collection of real images, we learn a 3D-aware image generator $G$ which takes a random noise $z \in \mathbb{R}^d \sim p_z$ and a camera pose $\theta \in \mathbb{R}^3 \sim p_{\theta}$ as input, and outputs an image $I$ of a synthetic instance under pose $\theta$:
-
-$$
-G: (z, \theta) \in \mathbb{R}^{d+3} \rightarrow I \in \mathbb{R}^{H \times W \times 3}
-$$
+![mylatex20220419_011353](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011353.svg)
 
 **The goal is to** provide parametric control and photo-realistic synthesis.
 
@@ -73,11 +63,11 @@ learning direct 3D representation of scenes and synthesize images under physical
 
 
 
-> the difference between **3D reconstruction**
+> difference between **3D reconstruction**
 
 重建一般是针对单一物体的，而生成是可以生成更多的，甚至是不真实存在的。
 
-> the difference between **multi-view generation from single image**
+> difference between **multi-view generation from single image**
 
 可以通过多张图重建，也可以从单张图重建。而一般训练肯定是多图的，测试是单图的；另一方面，也可以对一类物体进行训练，得到一个3D prior，其实这也可以看成是多图训练。
 
@@ -86,13 +76,12 @@ learning direct 3D representation of scenes and synthesize images under physical
 > **Training Strategy**
 
 Using a non-saturating GAN loss with R1 regularization:
-$$
-\mathcal{L}(D, G)=\mathbb{E}_{\boldsymbol{z} \sim p_{z}, \boldsymbol{\theta} \sim p_{\theta}}[f(D(G(\boldsymbol{z}, \boldsymbol{\theta})))] +\mathbb{E}_{I \sim p_{\text {real }}}\left[f(-D(I))+\lambda\|\nabla D(I)\|^{2}\right]
-$$
+
+![mylatex20220419_011253](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011253.svg)
+
 add a pose regularization term:
-$$
-\mathcal{L}_{\text {pose }}= \mathbb{E}_{\boldsymbol{z} \sim p_{z}, \boldsymbol{\theta} \sim p_{\theta}}\left\|D_{p}(G(\boldsymbol{z}, \boldsymbol{\theta}))-\boldsymbol{\theta}\right\|^{2} +\mathbb{E}_{I \sim p_{\text {real }}}\left\|D_{p}(I)-\hat{\boldsymbol{\theta}}\right\|^{2}
-$$
+
+![mylatex20220419_011327](https://raw.githubusercontent.com/yzy1996/Image-Hosting/master/mylatex20220419_011327.svg)
 
 differentiable renderer allow one to infer 3D from 2D images without requiring 3D ground-truth 
 
