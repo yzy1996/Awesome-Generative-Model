@@ -4,7 +4,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-A collection of resources on 3D-aware generation or learning 3D from 2D, focusing on the thread of the methods utilizing neural implicit representation as a intermediate shape to achieve more strict 3D identity consistency. This collection is organized as follows:
+A collection of resources on 3D-aware generation or learning 3D from 2D, focusing on the thread of the methods utilizing neural implicit representation as a intermediate shape to achieve more strict 3D identity consistency (using 3D-aware features to represent a scene, and apply a neural renderer for realistic image synthesis). This collection is organized as follows:
 
 - [Introduction](#Introduction)
 - [Literature](#Literature)
@@ -104,14 +104,6 @@ object-centric->multi objects
 
 
 ## Literature
-
-> 结构划分，utilize 3D-aware features to represent a scene, and apply a neural renderer, typically a CNN, on top of them for realistic image synthesis.
-
-multi-view 
-
-> 有3D shape 作为中间过渡的
-
-
 
 - [with 3D shape](#with-3D-shape)
 
@@ -277,7 +269,7 @@ multi-view
 
 ### without 3D shape
 
-
+> just for background comparison.
 
 
 
