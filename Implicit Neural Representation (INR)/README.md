@@ -14,6 +14,8 @@ https://github.com/vsitzmann/awesome-implicit-representations
 
 
 
+It's a powerful tool for reconstructing 3D structure from multi-view 2D supervision via fitting their 3D models to the multi-view images using differentiable rendering.
+
 
 
 几个经典网络：
@@ -28,13 +30,43 @@ https://github.com/vsitzmann/awesome-implicit-representations
 
 
 
+shape and appearance of objects
+
+local parts
+
+
+
+Local deep implicit functions for3d shape
+
+Learning shape templates with structured implicit functions
+
+
+
+full 3D scenes
+
+Deep local shapes: Learning local sdf priors for detailed 3d reconstruction
+
+Neural unsigned distance fields for implicit function learning
+
+Local implicit grid representations for 3d scenes
+
+Convolutional occupancy networks
+
+
+
+
+
 ## 2. Research Branch/Direction
 
 - Finding an efficient way to encode coordinates positions
 
 Fourier features let networks learn high frequency functions in low dimensional domains
 
-Implicit neural representations with periodic activation functions
+(SIREN )Implicit neural representations with periodic activation functions
+
+> SIREN replaced the popular ReLU activation function withsine functions with modulated frequencies, showing greatsingle scene fitting results.
+
+[](https://arxiv.org/abs/2004.04180)
 
 ## 3. Literature
 
@@ -66,6 +98,18 @@ Hybridpose: 6d object pose estimation under hybrid representations
 Solov2: Dynamic, faster and stronger
 
 Location augmentation for cnn
+
+
+
+Nerf:Representing scenes as neural radiance fields for view synthesis
+
+Differentiable volumetric rendering: Learningimplicit 3d representations without 3d supervision
+
+Scene representation networks: Continuous 3dstructure-aware neural scene representations.
+
+Multiview neuralsurface reconstruction by disentangling geometry and appearance
+
+
 
 
 

@@ -92,11 +92,7 @@ $$
 
 rather than Monte Carlo sampling
 
-
-
 using a manifold predictor to predict a reduced space for point sampling and radiance field learning.
-
-
 
 
 
@@ -105,3 +101,21 @@ using a manifold predictor to predict a reduced space for point sampling and rad
 [Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/pdf/2011.00844.pdf)  
 *Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*  
 **[`ICLR 2021`] (`CUHK, NTU`)**  
+
+
+
+
+
+[StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation](https://arxiv.org/abs/2112.11427)  
+*Roy Or-El, Xuan Luo, Mengyi Shan, Eli Shechtman, Jeong Joon Park, Ira Kemelmacher-Shlizerman*  
+**[`CVPR 2022`] (`U Washington`)** [Code](https://github.com/royorel/StyleSDF)
+
+We usea coordinate-based MLP to model Signed Distance Fields (SDF) and radiance fields which render low resolution feature maps. 借助StyleGAN实现了高质量的生成，
+
+
+
+输入采样的z 和 v，对于一条光线，volume renderer 会输出 每个采样点的 signed distance value + RGB + 256 feature vector。通过SDF的值，就能确定表面，同时将这些表面点对应的surface feature组合到一个featrue map。通过一个额外的2D generator将这个2D feature变成一个高清的图像 
+
+
+
+已存在方法只完成了第一步，

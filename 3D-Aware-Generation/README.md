@@ -7,13 +7,14 @@
 A collection of resources on 3D-aware generation or learning 3D from 2D, focusing on the thread of the methods utilizing neural implicit representation as a intermediate shape to achieve more strict 3D identity consistency (using 3D-aware features to represent a scene, and apply a neural renderer for realistic image synthesis). This collection is organized as follows:
 
 - [Introduction](#Introduction)
+- [Research Branch](#Research-Branch)
 - [Literature](#Literature)
 
 
 
 Ref rep: [awesome-3D-generation](https://github.com/justimyhxu/awesome-3D-generation)
 
-## Contributing
+### Contributing
 
 Feedback and contributions are welcome! If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to pull a request or leave an issue. I will release the [latex-pdf version]() in the future.  :arrow_down:markdown format:
 
@@ -87,11 +88,29 @@ differentiable renderer allow one to infer 3D from 2D images without requiring 3
 
 
 
+## Research Branch
+
+- To improve the surface quality
+
+view-consistent 3D geometry
+
+
+
+
+
+
+
 > **Related subtitles**
 
 - Pose-Disentangled2D GANs
 - Unsupervised 3D Reconstruction and Generationfrom 2D Images
 - 3D prior for GANs
+
+
+
+existing volume rendering based methods suffer from the **resolution** and the **view-inconsistency** issues
+
+
 
 
 
@@ -163,7 +182,7 @@ object-centric->multi objects
   *Xudong Xu, Xingang Pan, Dahua Lin, Bo Dai*  
   **[`NeurIPS 2021`] (`CUHK, MPI`)** [[Code](https://github.com/SheldonTsui/GOF_NeurIPS2021)]
 
-- [CIPS-3D A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/abs/2110.09788)  
+- [CIPS-3D: A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/abs/2110.09788)  
   *Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
   **[`arXiv 2021`] [`SJTU`]** [[Code](https://github.com/PeterouZh/CIPS-3D)]
 
@@ -230,6 +249,10 @@ object-centric->multi objects
 - [Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering](https://arxiv.org/abs/2010.09125)  
   *Yuxuan Zhang, Wenzheng Chen, Huan Ling, Jun Gao, Yinan Zhang, Antonio Torralba, Sanja Fidler*  
   **[`ICLR 2021`] (`NVIDIA, U Toronto`)**  
+  
+- [Leveraging 2D Data to Learn Textured 3D Mesh Generation](https://arxiv.org/abs/2004.04180)  
+  *Paul Henderson, Vagia Tsiminaki, Christoph H. Lampert*  
+  **[`CVPR 2020`]** ()
 
 
 
@@ -279,6 +302,26 @@ predefined 3D face model
 
 - [FLAME](https://flame.is.tue.mpg.de/)
 - [3DMM]()
+
+
+
+
+
+[3D Shape Induction from 2D Views of Multiple Objects](https://arxiv.org/abs/1612.05872)  
+*Matheus Gadelha, Subhransu Maji, Rui Wang*  
+**[`CVPR 2017`] (``)** 
+
+[Unsupervised Learning of 3D Structure from Images](https://arxiv.org/abs/1607.00662)  
+*Danilo Jimenez Rezende, S. M. Ali Eslami, Shakir Mohamed, Peter Battaglia, Max Jaderberg, Nicolas Heess*  
+**[`NeurIPS 2016`] (``)**
+
+[Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data](https://arxiv.org/abs/2002.12674)  
+*Sebastian Lunz, Yingzhen Li, Andrew Fitzgibbon, Nate Kushman*  
+**[`arXiv 2020`] (``)** 
+
+
+
+
 
 
 
