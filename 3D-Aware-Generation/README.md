@@ -149,79 +149,60 @@ object-centric->multi objects
 - [Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild](https://arxiv.org/abs/1911.11130)  
   *Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi*  
   **[`CVPR 2020 (Best paper)`]**  
-
 - [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](https://arxiv.org/abs/2007.02442)  
   *Katja Schwarz, Yiyi Liao, Michael Niemeyer, Andreas Geiger*  
   **[`NeurIPS 2020`] (`MPI`)** [[Code](https://github.com/autonomousvision/graf)]
-
 - [NeRF-VAE: A Geometry Aware 3D Scene Generative Model](https://arxiv.org/abs/2104.00587)  
   *Adam R. Kosiorek, Heiko Strathmann, Daniel Zoran, Pol Moreno, Rosalia Schneider, Soňa Mokrá, Danilo J. Rezende*  
   **[`ICML 2021`] (`DeepMind`)**
-
 - [GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields](https://arxiv.org/abs/2011.12100)  
   *Michael Niemeyer, Andreas Geiger*  
   **[`CVPR 2021`] (`MPI`)** [[Code](https://github.com/autonomousvision/giraffe)]
-
 - [pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis](https://arxiv.org/abs/2012.00926)  
   *Eric R. Chan, Marco Monteiro, Petr Kellnhofer, Jiajun Wu, Gordon Wetzstein*  
   **[`CVPR 2021`] (`Stanford`)**
-
 - [Lifting 2D StyleGAN for 3D-Aware Face Generation](https://arxiv.org/abs/2011.13126)  
   *Yichun Shi, Divyansh Aggarwal, Anil K. Jain*  
   **[`CVPR 2021`] (`Michigan`)**
-
 - [Unconstrained Scene Generation with Locally Conditioned Radiance Fields](https://arxiv.org/abs/2104.00670)  
   *Terrance DeVries, Miguel Angel Bautista, Nitish Srivastava, Graham W. Taylor, Joshua M. Susskind*  
   **[`ICCV 2021`] (`Apple`)**
-
 - [A Shading-Guided Generative Implicit Model for Shape-Accurate 3D-Aware Image Synthesis](https://arxiv.org/abs/2110.15678)  
   *Xingang Pan, Xudong Xu, Chen Change Loy, Christian Theobalt, Bo Dai*  
   **[`NeurIPS 2021`] (`MPI, CUHK`)** [[Code](https://github.com/xingangpan/shadegan)]
-
 - [Generative Occupancy Fields for 3D Surface-Aware Image Synthesis](https://arxiv.org/abs/2111.00969)  
   *Xudong Xu, Xingang Pan, Dahua Lin, Bo Dai*  
   **[`NeurIPS 2021`] (`CUHK, MPI`)** [[Code](https://github.com/SheldonTsui/GOF_NeurIPS2021)]
-
 - [CIPS-3D: A 3D-Aware Generator of GANs Based on Conditionally-Independent Pixel Synthesis](https://arxiv.org/abs/2110.09788)  
   *Peng Zhou, Lingxi Xie, Bingbing Ni, Qi Tian*  
   **[`arXiv 2021`] [`SJTU`]** [[Code](https://github.com/PeterouZh/CIPS-3D)]
-
 - [CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields](https://arxiv.org/abs/2103.17269)  
   *Michael Niemeyer, Andreas Geiger*  
   **[`arXiv 2021`] (`MPI`)** [[Code](https://github.com/autonomousvision/campari)]
-
-- [StyleNeRF: A Style-based 3D-Aware Generator for High-resolution Image Synthesis](https://arxiv.org/abs/2110.08985)  
-  *Jiatao Gu, Lingjie Liu, Peng Wang, Christian Theobalt*  
-  **[`ICLR 2021`] (`Facebook, MPI`)** [[Code](https://github.com/facebookresearch/StyleNeRF)]
-
 - [Do 2D GANs Know 3D Shape? Unsupervised 3D shape reconstruction from 2D Image GANs](https://arxiv.org/abs/2011.00844)  
   *Xingang Pan, Bo Dai, Ziwei Liu, Chen Change Loy, Ping Luo*  
   **[`ICLR 2021`] (`CUHK, NTU`)**  
-
+- [StyleNeRF: A Style-based 3D-Aware Generator for High-resolution Image Synthesis](https://arxiv.org/abs/2110.08985)  
+  *Jiatao Gu, Lingjie Liu, Peng Wang, Christian Theobalt*  
+  **[`ICLR 2022`] (`Facebook, MPI`)** [[Code](https://github.com/facebookresearch/StyleNeRF)]
 - [GRAM: Generative Radiance Manifolds for 3D-Aware Image Generation](https://arxiv.org/abs/2112.08867)  
   *Yu Deng, Jiaolong Yang, Jianfeng Xiang, Xin Tong*  
   **[`CVPR 2022`] (`Tsinghua, Microsoft`)**
-
 - [StyleSDF: High-Resolution 3D-Consistent Image and Geometry Generation](https://arxiv.org/abs/2112.11427)  
   *Roy Or-El, Xuan Luo, Mengyi Shan, Eli Shechtman, Jeong Joon Park, Ira Kemelmacher-Shlizerman*  
   **[`CVPR 2022`] (`U Washington`)** 
-
 - [Pix2NeRF: Unsupervised Conditional $π$-GAN for Single Image to Neural Radiance Fields Translation](https://arxiv.org/abs/2202.13162)  
   *Shengqu Cai, Anton Obukhov, Dengxin Dai, Luc Van Gool*  
   **[`CVPR 2022`] (`ETH`)**
-
 - [GIRAFFE HD: A High-Resolution 3D-aware Generative Model](https://arxiv.org/abs/2203.14954)  
   *Yang Xue, Yuheng Li, Krishna Kumar Singh, Yong Jae Lee*  
   **[`CVPR 2022`] (`UCD`)**
-
 - [Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis](https://arxiv.org/abs/2204.06307)  
   *Xuanmeng Zhang, Zhedong Zheng, Daiheng Gao, Bang Zhang, Pan Pan, Yi Yang*  
   **[`CVPR 2022`] (`University of Technology Sydney`)**
-
 - [VoLux-GAN: A Generative Model for 3D Face Synthesis with HDRI Relighting](https://arxiv.org/abs/2201.04873)  
   *Feitong Tan, Sean Fanello, Abhimitra Meka, Sergio Orts-Escolano, Danhang Tang, Rohit Pandey, Jonathan Taylor, Ping Tan, Yinda Zhang*  
   **[`arXiv 2022`] (`Google`)** 
-
 - [3D-GIF: 3D-Controllable Object Generation via Implicit Factorized Representations](https://arxiv.org/abs/2203.06457)  
   *Minsoo Lee, Chaeyeon Chung, Hojun Cho, Minjung Kim, Sanghun Jung, Jaegul Choo, Minhyuk Sung*  
   **[`arXiv 2022`] (`KAIST`)** 
