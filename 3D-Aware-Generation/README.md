@@ -126,7 +126,7 @@ object-centric->multi objects
 
 - [with 3D shape](#with-3D-shape)
 
-  - [Neural Implicit Representation](#Neural-Implicit-Representation)
+  - [Implicit Representation](#Implicit-Representation)
 
   - [Voxel](#Voxel)
 
@@ -142,7 +142,7 @@ object-centric->multi objects
 
 ### with-3D-shape
 
-#### `Implicit Neural Representation`
+#### `Implicit Representation`
 
 > For more information, plz ref [INR](https://github.com/yzy1996/Artificial-Intelligence/tree/main/1-Machine-Learning/1-Generative-Models/3D%20Representation%20%26%20Reconstruction/Neural%20Implicit%20Surfaces).
 
@@ -302,8 +302,6 @@ predefined 3D face model
 
 - [FLAME](https://flame.is.tue.mpg.de/)
 - [3DMM]()
-
-
 
 
 
