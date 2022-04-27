@@ -68,6 +68,16 @@ Fourier features let networks learn high frequency functions in low dimensional 
 
 [](https://arxiv.org/abs/2004.04180)
 
+
+
+- Accelerate 
+
+> Implicit neural representations are a new and promising method to represent images and scenes. Implicit neural representations enable good performance on task like view synthesis. Those networks generate an image of scene pixel-by-pixel and are therefore computationally expensive. 
+
+
+
+
+
 ## 3. Literature
 
 Occupancy networks: Learning 3d reconstruction in function space  
@@ -118,6 +128,14 @@ Multiview neuralsurface reconstruction by disentangling geometry and appearance
 Learning implicit fields for generative shape modeling
 
 Deep meta functionals for shape representation
+
+
+
+[CoordX: Accelerating Implicit Neural Representation with a Split MLP Architecture](https://arxiv.org/abs/2201.12425)  
+*Ruofan Liang, Hongyi Sun, Nandita Vijaykumar*  
+**[`ICLR 2022`] (``)**
+
+
 
 
 
