@@ -30,9 +30,13 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 
 ## Introduction
 
-2D GAN 的训练集是一系列2D图像（如celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像 (满足这一定义的都会归属到这一笔记文档)。
+2D GAN 的训练集是一系列2D图像（如celeba），机理是从一个隐向量经过一个生成器映射到一幅图像，通常这些图像是单视角的。3D-aware的含义是指对于同一object的多视角图像，因此机理依旧是从一个隐向量经过一个生成器，再结合一个视角信号，得到在某一视角下的2D图像，然后通过修改视角信号，可以得到不同视角下的2D图像 (满足这一定义的都会归属到这一笔记文档)。generate 3D-consistent images with explicitly controllable camera poses.
 
 主流方法有两种，1）一种是不生成中间3D shape，直接到多视角图像，通过某些latent feature直接控制了视角，这种属于隐式控制（不是直接的相机参数）。2）另一种是生成一个中间3D shape结构，3D结构都有了，再加上一个显式的相机参数，就可以物理渲染出任意视角的2D图像；这样的效果会更好一些，相当于是先升维后再降维。
+
+> To achieve this goal, the literature mainly follows two directions:
+>
+> - The first line of work utilize 3D-aware features to represent a scene, and apply a neural render for realistic image synthesis. 
 
 本笔记重点关注第二种方法。
 
