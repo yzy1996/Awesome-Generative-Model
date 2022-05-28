@@ -14,11 +14,11 @@ A collection of resources on Controllable Generation. Specific attribute-pose is
 
 Conventional generative models excel at generating random realistic samples with statistics resembling the training set. However, controllable and interactive matters rather than random. GANs do not provide an inherent way of comprehending or controlling the underlying generative factors. But some researches show that a well-trained GAN is able to encode different semantics inside the latent space. Therefore, a key problem of generative models is to gain explicit control of the synthesis process or results.
 
-The goal is to generate or modify images satisfying our specific requirement. The requirement should be sementical meaningful interpretable and easy to distinguish without affecting other attributes (e.g. object pose,). The manipulation could be single or multi attributes of interest.
+The goal is to generate or modify images satisfying our specific requirements. The requirement should be semantical meaningful interpretable and easy to distinguish without affecting other attributes (e.g. object pose,). The manipulation could be single or multi attributes of interest.
 
-The first line proposes conditional GANs to generate with $p(z \mid y)$ or employ auxiliary classifiers to enforce the gan network generate desired results.
+The first line proposes conditional GANs to generate with $p(z \mid y)$ or employ auxiliary classifiers to enforce the gan network to generate desired results.
 
-Another line is to utilize the latent space of a pretrained generator for image manipulation. In this line, we could also control and modify a given real image by inversing the image into latent code (**inversion**). The main idea behind this method is to disentangle the latent space. A common practice is to analyze and dissect GANs’ latent spaces, finding disentangled latent variables suitable for editing. The disentangled latent variables sometimes are interpretable directions $d$. Careful modifications of the latent embeddings then translate to desired changes in generated output.
+Another line is to utilize the latent space of a pretrained generator for image manipulation. In this line, we could also control and modify a given real image by inverting the image into latent code (**inversion**). The main idea behind this method is to disentangle the latent space. A common practice is to analyze and dissect GANs’ latent spaces, finding disentangled latent variables suitable for editing. The disentangled latent variables sometimes are interpretable directions $d$. Careful modifications of the latent embeddings then translate to desired changes in the generated output.
 $$
 x = G(z_0) \rightarrow x' = G(z_0 + \alpha d)
 $$
