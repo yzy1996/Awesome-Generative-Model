@@ -175,3 +175,25 @@ features map $\mathbf{X}_i \in \mathbb{R}^{W \times H \times F}$, initial alpha 
 </p></details>
 
 --
+
+
+
+
+
+
+
+[(VolumeGAN)3D-aware Image Synthesis via Learning Structural and Textural Representations](https://arxiv.org/abs/2112.10759)  
+*Yinghao Xu, Sida Peng, Ceyuan Yang, Yujun Shen, Bolei Zhou*  
+**[`CVPR 2022`] (`CUHK`)**
+
+
+<details><summary>Click to expand</summary>
+
+</p></details>
+
+--
+
+
+
+
+
