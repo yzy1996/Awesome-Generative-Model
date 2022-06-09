@@ -101,7 +101,19 @@ using a manifold predictor to predict a reduced space for point sampling and rad
 
 
 
+---
 
+HoloGAN: Unsupervised Learning of 3D Representations From Natural Images
+
+<details><summary>Click to expand</summary><p>
+Main method:
+
+
+> Traditional GANs learn to map a noise vector $z$ directly to 2D features to generate images.
+>
+> HoloGAN learn to map a learnt 3D representation to the 2D image space.
+
+</p></details>
 
 
 
