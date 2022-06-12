@@ -4,7 +4,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-A collection of resources on 3D-aware generation or learning 3D from 2D, focusing on the thread of the methods utilizing neural implicit representation as a intermediate shape to achieve more strict 3D identity consistency (using 3D-aware features to represent a scene, and apply a neural renderer for realistic image synthesis). This collection is organized as follows:
+A collection of resources on 3D-aware generation or learning 3D from 2D, focusing on the thread of the methods utilizing neural implicit representation as an intermediate shape to achieve more strict 3D identity consistency (using 3D-aware features to represent a scene, and apply a neural renderer for realistic image synthesis). This collection is organized as follows:
 
 - [Introduction](#Introduction)
 - [Research Branch](#Research-Branch)
