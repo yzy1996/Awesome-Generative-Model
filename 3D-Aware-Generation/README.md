@@ -210,6 +210,9 @@ object-centric->multi objects
 - [3D-GIF: 3D-Controllable Object Generation via Implicit Factorized Representations](https://arxiv.org/abs/2203.06457)  
   *Minsoo Lee, Chaeyeon Chung, Hojun Cho, Minjung Kim, Sanghun Jung, Jaegul Choo, Minhyuk Sung*  
   **[`arXiv 2022`] (`KAIST`)** 
+- [GRAM-HD: 3D-Consistent Image Generation at High Resolution with Generative Radiance Manifolds](https://arxiv.org/abs/2206.07255)  
+  *Jianfeng Xiang, Jiaolong Yang, Yu Deng, Xin Tong*  
+  **[`arXiv 2022`] (``)** 
 
 
 
