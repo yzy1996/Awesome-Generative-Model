@@ -44,7 +44,7 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 
 （为什么要研究这个问题?）
 
-Reconstructing 3D objects from 2D images is one of the mainstream problems in3D computer vision. It is important for controlling the generation process to be able to manipulate some semantic attributes in the generated results. Among these attributes, 3D information such as pose has attracted much more attention.
+Reconstructing 3D objects from 2D images is one of the mainstream problems in 3D computer vision. It is important for controlling the generation process to be able to manipulate some semantic attributes in the generated results. Among these attributes, 3D information such as pose has attracted much more attention.
 
 （这个问题如何研究?）
 
