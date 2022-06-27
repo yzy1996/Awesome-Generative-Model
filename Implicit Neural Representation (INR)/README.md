@@ -121,7 +121,9 @@ Multiview neuralsurface reconstruction by disentangling geometry and appearance
 
 
 
-
+[Adversarial Generation of Continuous Images](https://arxiv.org/abs/2011.12026)  
+*Ivan Skorokhodov, Savva Ignatyev, Mohamed Elhoseiny*  
+**[`CVPR 2021`] (``)** 
 
 
 
