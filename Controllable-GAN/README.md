@@ -257,6 +257,8 @@ click to see detailed notes
 - [Only a Matter of Style: Age Transformation Using a Style-Based Regression Model](https://arxiv.org/pdf/2102.02754.pdf)  
   *Yuval Alaluf, Or Patashnik, Daniel Cohen-Or*  
   **[`SIGGRAPH 2021`] (`Tel-Aviv University`)**
+  
+- Designing an Encoder for StyleGAN Image Manipulation
 
 
 
