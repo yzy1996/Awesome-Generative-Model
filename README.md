@@ -23,9 +23,9 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 
 ## Category
 
-[for 3D-Aware Generation](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/3D-Aware-Generation)
+3D-Aware Generation has been moved to Learn 3D from 2D 
 
-[for Controllable Generation](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Controllable-GAN)
+Controllable Generation has been moved to GAN
 
 [for-Style-Transfer](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Style-Transfer%20%26%20Image2Image)
 
