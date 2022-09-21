@@ -3,7 +3,6 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
-![GitHub contributors](https://img.shields.io/github/contributors/yzy1996/awesome-generative-model?color=blue)
 
 A collection of resources on Generative Model.
 
@@ -17,15 +16,11 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 **[`Conference/Journal Year`] (`Institution`)** [[Github](link)] [[Project](link)]
 ```
 
-:exclamation: Now you can use this [script](https://github.com/yzy1996/Python-Code/tree/master/Python%2BarXiv) to automatically generate the above text.
-
-🙏 Thanks [weihaox](https://github.com/weihaox).
+:smile: Now you can use this [script](https://github.com/yzy1996/Python-Code/tree/master/Python%2BarXiv) to automatically generate the above text.
 
 ## Category
 
-3D-Aware Generation has been moved to Learn 3D from 2D 
+**3D-Aware Generation** has been moved to **[Learn 3D from 2D](https://github.com/yzy1996/Awesome-Learn-3D-From-2D)** 
 
-Controllable Generation has been moved to GAN
-
-[for-Style-Transfer](https://github.com/yzy1996/Awesome-Generative-Model/tree/main/Style-Transfer%20%26%20Image2Image)
+**GAN related sources** has been moved to **[GAN](https://github.com/yzy1996/Awesome-GANs)**
 
