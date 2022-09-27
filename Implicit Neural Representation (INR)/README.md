@@ -10,6 +10,20 @@ https://github.com/vsitzmann/awesome-implicit-representations
 
 
 
+**Implicit Neural Representation (INR)** is a promising new avenue of representing general signals by leasrning a continuous function that, parameterized as a neural networks, maps the domain of a signal to its codomain; the mapping from spatial coordinates of an image to its pixel values, for example.
+
+ be capable of conveying fine details in a high dimensional signal. 
+
+
+
+Instead of storing the signal values corresponding to the coordinate grid, this method train a neural network with continuous activation functions to approximate the coordinate-to-value mapping.
+
+|                                       |      |      |
+| ------------------------------------- | ---- | ---- |
+| network-as-a -representation approach |      |      |
+|                                       |      |      |
+|                                       |      |      |
+
 也可以叫 neural implicit function
 
 
@@ -73,6 +87,14 @@ Fourier features let networks learn high frequency functions in low dimensional 
 - Accelerate 
 
 > Implicit neural representations are a new and promising method to represent images and scenes. Implicit neural representations enable good performance on task like view synthesis. Those networks generate an image of scene pixel-by-pixel and are therefore computationally expensive. 
+
+
+
+require a lot of memory and computations
+
+- 
+
+
 
 
 
@@ -142,3 +164,28 @@ Deep meta functionals for shape representation
 
 
 [^ 1]: INR-GAN
+
+
+
+
+
+
+
+这里面一个常用的部分叫 positional encoding
+
+This term is used to enhance the performance of coordinate-MLPs
+
+
+
+
+
+The major drawback of training coordinate-MLPs with raw input coordinates is their sub-optimal performance in learning high-frequency content. 
+
+**As a remedy**, recent studies empirically confirmed that projecting the coordinates to a higher dimensional space using sine and cosine functions of different frequencies allows coordinate-MLPs to learn high-frequency information **more effectively**.
+
+
+
+
+
+Fourier features let networks learn high frequency functions in low dimensional domains
+
