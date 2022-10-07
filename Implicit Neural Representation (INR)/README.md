@@ -10,7 +10,7 @@ https://github.com/vsitzmann/awesome-implicit-representations
 
 
 
-**Implicit Neural Representation (INR)** is a promising new avenue of representing general signals by leasrning a continuous function that, parameterized as a neural networks, maps the domain of a signal to its codomain; the mapping from spatial coordinates of an image to its pixel values, for example.
+**Implicit Neural Representation (INR)** is a promising new avenue of representing general signals by learning a continuous function that, parameterized as a neural network, maps the domain of a signal to its codomain; the mapping from spatial coordinates of an image to its pixel values, for example.
 
  be capable of conveying fine details in a high dimensional signal. 
 
