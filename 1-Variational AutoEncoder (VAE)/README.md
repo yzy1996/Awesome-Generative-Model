@@ -1,5 +1,29 @@
 # Variational Auto-Encoder (VAE)
 
+The majority of the research efforts on improving VAEs is dedicated to the statistical challenges, such as:
+
+- reducing the gap between approximate and true posterior distribution
+- formulatig tighter bounds
+- reducing the gradient noise
+- extending VAEs to discrete variables
+- tackling posterior collapse
+- designing special network architectures
+  - previous work just borrows the architectures from the classification tasks
+
+
+
+VAEs maximize the mutual information between the input and latent variables, requiring the networks to retain the information content of the input data as much as possible.
+
+Information maximization in noisy channels: A variational approach  
+**[`NeurIPS 2017`]**
+
+Deep variational information bottleneck  
+**[`ICLR 2017`]**
+
+
+
+
+
 学习资料
 
 https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
@@ -78,3 +102,12 @@ VQVAE通过Encoder学习出中间编码，然后通过最邻近搜索将中间�
 
 【这样其实实现的是一种压缩的效果】
 
+
+
+
+
+参考：
+
+https://www.jeremyjordan.me/variational-autoencoders/
+
+https://www.jeremyjordan.me/autoencoders/
