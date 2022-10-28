@@ -65,6 +65,17 @@ The ability to generate and manipulate photorealistic image content (**high reso
 
 
 
+
+
+Existing generative modeling techniques can largely be grouped into two categories based on how they represent probability distributions.
+
+1. **likelihood-based models**, which directly learn the distribution’s probability density (or mass) function via (approximate) maximum likelihood. Typical likelihood-based models include autoregressive models, normalizing flow models , energy-based models (EBMs), and variational auto-encoders (VAEs).
+2. **implicit generative models**, where the probability distribution is implicitly represented by a model of its sampling process. The most prominent example is generative adversarial networks (GANs), where new samples from the data distribution are synthesized by transforming a random Gaussian vector with a neural network.
+
+> From Song Yang 
+
+
+
 Deep generative models can be divided broadly into three categories:
 
 - **Generative Adversarial Networks**
@@ -87,7 +98,6 @@ Deep generative models can be divided broadly into three categories:
 
   > estimate a scalar energy for each example that corresponds to an unnormalized log-probability
   
-
 
 
 
