@@ -30,14 +30,13 @@ Feedback and contributions are welcome! If you think I have missed out on someth
 
 
 
-1. [Variational AutoEncoder (VAE)](./1-Variational-AutoEncoder-(VAE))
-2. [Diffusion Model](./2-Diffusion-Model)
-3. [Energy-Based Model (EBM)](./3-Energy-Based-Model-(EBM))
+1. [Variational AutoEncoder (VAE)](./1-Variational%20AutoEncoder%20(VAE))
+2. [Diffusion Model](./2-Diffusion%20Model)
+3. [Energy-Based Model (EBM)](./3-Energy-Based%20Model%20(EBM))
 4. [Flow](./4-Flow)
-5. [Representation Learning](./5-Representation-Learning)
-6. [Disentangled Representation](./6-Disentangled-Representation)
+5. [Representation Learning](./5-Representation%20Learning)
+6. [Disentangled Representation](./6-Disentangled%20Representation)
 7. [Text-to-Image](./7-Text-to-Image)
-8. [Evaluation & Loss](./8-Evaluation-&-Loss)
 9. [Others](./Others)
 
 
