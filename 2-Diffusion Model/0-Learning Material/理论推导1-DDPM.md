@@ -45,7 +45,7 @@ $$
 $$
 这样是不是就舒服多了，到这里我们就重写一下第一个式子，也是和原论文一致了。
 $$
-\boldsymbol{x}_t = \alpha_t \boldsymbol{x}_{t-1} + \sqrt{1-\alpha_t} \boldsymbol{\varepsilon}_t, \quad \boldsymbol{\varepsilon}_t \sim \mathcal{N}(\mathbf{0}, \mathbf{I}) \tag{6}
+\boldsymbol{x}_t = \sqrt{\alpha_t} \boldsymbol{x}_{t-1} + \sqrt{1-\alpha_t} \boldsymbol{\varepsilon}_t, \quad \boldsymbol{\varepsilon}_t \sim \mathcal{N}(\mathbf{0}, \mathbf{I}) \tag{6}
 $$
 
 > 这里写这么多的原因是，其他资料都是直接给出了这个式子，没有解释为什么系数是这样设置的（平方和为1）。同时呢，这里还有一个点，最后的 $\boldsymbol{x}_T \sim \mathcal{N}(\mathbf{0}, \mathbf{I})$ 我们可以认为是一个标准正态分布的，因此前一项的 $a_T$ 接近0，后项应该设计成一个 $(1-a_t)$ 的形式。也有作者提到，这样设计是为了保证方差都在一个尺度上，具有variance-preserving。
