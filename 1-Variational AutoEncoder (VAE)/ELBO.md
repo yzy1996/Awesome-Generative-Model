@@ -355,3 +355,8 @@ p(x) = \int p(x|\phi) p(\phi) d\phi
 $$
 它也叫 marginal likelihood or model evidence 是需要使用所有参数的，由先验进行加权。因此放在分母，起到一个归一化的作用，因为分母是分子加权求和后的结果，而对于一个最佳参数，它的后验概率应该是最大的。
 
+
+
+
+
+https://zhuanlan.zhihu.com/p/27549418

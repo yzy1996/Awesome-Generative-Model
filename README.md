@@ -102,3 +102,19 @@ Deep generative models can be divided broadly into three categories:
 
 
 
+
+
+Generative models are widely used for image synthesis and various image-processing tasks, such as editing, inpainting, colorization, deblurring, and superresolution. Generative models have the potential to streamline the workflow of photographers and digital artists and enable new levels of creativity. Similarly, they might allow content creators to efficiently generate virtual 3D content for games, animated movies, or the metaverse. 
+
+
+
+生成模型应该具备的特点：
+
+- **High-quality sampling**：需要生成的足够真实，无法区分真假。
+- **Mode coverage and sample diversity**：如果数据是具有多样性的，则生成模型也应该具备多样性，而且是在不损失质量的前提下。
+- **Fast and computationally inexpensive sampling**：一些应用需要实时性，例如实时编辑。
+
+
+
+![Three key requirements for generative models and how different frameworks trade off between them](https://developer-blogs.nvidia.com/wp-content/uploads/2022/04/GANs_Diffusion_Autoencoders.png)
+

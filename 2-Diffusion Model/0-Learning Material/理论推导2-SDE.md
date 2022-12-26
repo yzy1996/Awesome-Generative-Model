@@ -6,6 +6,10 @@
 
 
 
+为了方便大家理解，这里先解释各种符号
+
+
+
 一开始不要步子迈那么大，我们先从一些熟悉的东西开始。在[DDPM](https://zhuanlan.zhihu.com/p/565901160)中我们有一些结论：
 $$
 \text{前向过程 } \quad \boldsymbol{x}_t \sim q(\boldsymbol{x}_t | \boldsymbol{x}_{0})=\mathcal{N}(\boldsymbol{x}_t ; \sqrt{\bar{\alpha}_t} \boldsymbol{x}_0 , (1- \bar{\alpha}_t)\mathbf{I})) \tag{1}

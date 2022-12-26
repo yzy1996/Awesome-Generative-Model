@@ -16,6 +16,16 @@ Diffusion models are straightforward to define and efficient to train, but are n
 
 
 
+Diffusion models consist of two processes: forward diffusion and parametrized reverse. A forward diffusion process maps data to noise by gradually perturbing the input data. At each step of this process, Gaussian noise is incrementally added to the data. The second process is a parametrized reverse process that undoes the forward diffusion and performs iterative denoising.
+
+
+
+
+
+
+
+
+
 ## Branch
 
 - [Sample-Efficiency](./Sample-Efficiency)

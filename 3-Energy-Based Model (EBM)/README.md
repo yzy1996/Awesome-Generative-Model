@@ -39,7 +39,9 @@ ICLR2021 Tutorial: https://iclr.cc/virtual/2021/workshop/2140
 
 
 
+## Code
 
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial8/Deep_Energy_Models.html
 
 
 
